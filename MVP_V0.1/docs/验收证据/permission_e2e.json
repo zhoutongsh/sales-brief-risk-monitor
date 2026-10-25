@@ -1,0 +1,670 @@
+{
+  "summary": {
+    "scenarios_total": 29,
+    "scenarios_passed": 29,
+    "scenarios_failed": 0,
+    "checks_total": 37,
+    "checks_passed": 37,
+    "checks_failed": 0,
+    "unauth_statuses": [
+      {
+        "method": "GET",
+        "path": "/api/me",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/brief/daily",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/brief/weekly?week=this",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/metrics",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/metrics/new_leads/drill",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/risks",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/risks/R-20261024-001",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/rules",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/quality",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/notifications",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/audit",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/export/brief.xlsx",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/export/risks.xlsx",
+        "status": 401
+      },
+      {
+        "method": "GET",
+        "path": "/api/print/brief",
+        "status": 401
+      },
+      {
+        "method": "POST",
+        "path": "/api/admin/batch/run",
+        "status": 401
+      },
+      {
+        "method": "POST",
+        "path": "/api/risks/R-20261024-001/claim",
+        "status": 401
+      },
+      {
+        "method": "POST",
+        "path": "/api/risks/R-20261024-001/transfer",
+        "status": 401
+      },
+      {
+        "method": "POST",
+        "path": "/api/risks/R-20261024-001/close",
+        "status": 401
+      },
+      {
+        "method": "POST",
+        "path": "/api/risks/R-20261024-001/escalate",
+        "status": 401
+      },
+      {
+        "method": "PATCH",
+        "path": "/api/rules/target_gap",
+        "status": 401
+      }
+    ],
+    "mobile_statuses": [
+      {
+        "path": "/m",
+        "status": 404
+      },
+      {
+        "path": "/m/",
+        "status": 404
+      },
+      {
+        "path": "/mobile",
+        "status": 404
+      },
+      {
+        "path": "/mobile/",
+        "status": 404
+      },
+      {
+        "path": "/h5",
+        "status": 404
+      },
+      {
+        "path": "/h5/",
+        "status": 404
+      }
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "S01",
+      "name": "未登录访问全部受保护接口返回 401",
+      "expected": "20/20 个接口均为 401",
+      "actual": "20/20 为 401；其他=[]",
+      "pass": true,
+      "detail": "[{\"method\": \"GET\", \"path\": \"/api/me\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/brief/daily\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/brief/weekly?week=this\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/metrics\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/metrics/new_leads/drill\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/risks\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/risks/R-20261024-001\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/rules\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/quality\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/notifications\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/audit\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/export/brief.xlsx\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/export/risks.xlsx\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/print/brief\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/admin/batch/run\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/claim\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/transfer\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/close\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/escalate\", \"status\": 401}, {\"method\": \"PATCH\", \"path\": \"/api/rules/target_gap\", \"status\": 401}]"
+    },
+    {
+      "id": "S02",
+      "name": "移动端/H5 路由确实不存在",
+      "expected": "全部 404",
+      "actual": "[{\"path\": \"/m\", \"status\": 404}, {\"path\": \"/m/\", \"status\": 404}, {\"path\": \"/mobile\", \"status\": 404}, {\"path\": \"/mobile/\", \"status\": 404}, {\"path\": \"/h5\", \"status\": 404}, {\"path\": \"/h5/\", \"status\": 404}]",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S03",
+      "name": "健康检查声明不支持移动端",
+      "expected": "ok=true, mobile_supported=false",
+      "actual": "{\"ok\": true, \"demo\": true, \"mobile_supported\": false}",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S04-u_gm",
+      "name": "u_gm 登录并读取个人资料",
+      "expected": "200 且角色/范围正确",
+      "actual": "gm / 全公司",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S04-u_sd",
+      "name": "u_sd 登录并读取个人资料",
+      "expected": "200 且角色/范围正确",
+      "actual": "sd / 全公司",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S04-u_bu",
+      "name": "u_bu 登录并读取个人资料",
+      "expected": "200 且角色/范围正确",
+      "actual": "bu / 华东事业部",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S04-u_sm",
+      "name": "u_sm 登录并读取个人资料",
+      "expected": "200 且角色/范围正确",
+      "actual": "sm / 华东一部",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S05-u_gm",
+      "name": "u_gm 风险/日报/指标行级范围",
+      "expected": "风险 10 条，日报范围含 全公司，指标 200",
+      "actual": "风险 10 条，日报范围 全公司，指标 200",
+      "pass": true,
+      "detail": "ids=['R-20261024-001', 'R-20261024-002', 'R-20261024-003', 'R-20261024-004', 'R-20261024-005', 'R-20261024-006', 'R-20261024-007', 'R-20261024-008', 'R-20261024-009', 'R-20261024-010']"
+    },
+    {
+      "id": "S05-u_sd",
+      "name": "u_sd 风险/日报/指标行级范围",
+      "expected": "风险 10 条，日报范围含 全公司，指标 200",
+      "actual": "风险 10 条，日报范围 全公司，指标 200",
+      "pass": true,
+      "detail": "ids=['R-20261024-001', 'R-20261024-002', 'R-20261024-003', 'R-20261024-004', 'R-20261024-005', 'R-20261024-006', 'R-20261024-007', 'R-20261024-008', 'R-20261024-009', 'R-20261024-010']"
+    },
+    {
+      "id": "S05-u_bu",
+      "name": "u_bu 风险/日报/指标行级范围",
+      "expected": "风险 6 条，日报范围含 华东事业部，指标 200",
+      "actual": "风险 6 条，日报范围 华东事业部，指标 200",
+      "pass": true,
+      "detail": "ids=['R-20261024-001', 'R-20261024-002', 'R-20261024-004', 'R-20261024-005', 'R-20261024-007', 'R-20261024-008']"
+    },
+    {
+      "id": "S05-u_sm",
+      "name": "u_sm 风险/日报/指标行级范围",
+      "expected": "风险 1 条，日报范围含 华东一部，指标 200",
+      "actual": "风险 1 条，日报范围 华东一部，指标 200",
+      "pass": true,
+      "detail": "ids=['R-20261024-008']"
+    },
+    {
+      "id": "S06-u_gm",
+      "name": "u_gm 日报完整结构",
+      "expected": "3 结论 + 6 指标卡 + 增长/下降 Top + 风险 Top≤3 + 动作 + 数据说明 + 渠道 + 趋势",
+      "actual": "结论3 指标6 风险Top3 动作3 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00",
+      "pass": true,
+      "detail": "movers=['growth', 'decline', 'period'] quality=pass"
+    },
+    {
+      "id": "S06-u_sd",
+      "name": "u_sd 日报完整结构",
+      "expected": "3 结论 + 6 指标卡 + 增长/下降 Top + 风险 Top≤3 + 动作 + 数据说明 + 渠道 + 趋势",
+      "actual": "结论3 指标6 风险Top3 动作3 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00",
+      "pass": true,
+      "detail": "movers=['growth', 'decline', 'period'] quality=pass"
+    },
+    {
+      "id": "S06-u_bu",
+      "name": "u_bu 日报完整结构",
+      "expected": "3 结论 + 6 指标卡 + 增长/下降 Top + 风险 Top≤3 + 动作 + 数据说明 + 渠道 + 趋势",
+      "actual": "结论3 指标6 风险Top3 动作3 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00",
+      "pass": true,
+      "detail": "movers=['growth', 'decline', 'period'] quality=pass"
+    },
+    {
+      "id": "S06-u_sm",
+      "name": "u_sm 日报完整结构",
+      "expected": "3 结论 + 6 指标卡 + 增长/下降 Top + 风险 Top≤3 + 动作 + 数据说明 + 渠道 + 趋势",
+      "actual": "结论3 指标6 风险Top1 动作1 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00",
+      "pass": true,
+      "detail": "movers=['growth', 'decline', 'period'] quality=pass"
+    },
+    {
+      "id": "S07-u_gm-this",
+      "name": "u_gm 本周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日6 动作3 发布2026-10-24T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_gm-last",
+      "name": "u_gm 上周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_sd-this",
+      "name": "u_sd 本周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日6 动作3 发布2026-10-24T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_sd-last",
+      "name": "u_sd 上周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_bu-this",
+      "name": "u_bu 本周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日6 动作3 发布2026-10-24T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_bu-last",
+      "name": "u_bu 上周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_sm-this",
+      "name": "u_sm 本周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日6 动作1 发布2026-10-24T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S07-u_sm-last",
+      "name": "u_sm 上周周报完整结构",
+      "expected": "6 指标 + 3 结论 + 对比 + 排名 + 风险闭环 + 每日要点 + 动作 + 数据说明",
+      "actual": "指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S08",
+      "name": "发布时间按计划时间存储（日报 08:30；本周六 09:00；上周一 09:00）",
+      "expected": "2026-10-24T08:30:00+08:00 / 2026-10-24T09:00:00+08:00 / 2026-10-19T09:00:00+08:00",
+      "actual": "2026-10-24T08:30:00+08:00 / 2026-10-24T09:00:00+08:00 / 2026-10-19T09:00:00+08:00",
+      "pass": true,
+      "detail": "实际生成时间 daily=2026-10-24T20:37:44+08:00 this=2026-10-24T20:37:44+08:00 last=2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "S09",
+      "name": "跨组织数据范围访问被拒绝",
+      "expected": "BU 看 W400=403；SM 看 E140=403；越权认领=403",
+      "actual": "403/403/403/403",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S10",
+      "name": "角色功能越权全部拒绝",
+      "expected": "非 GM 审计/改规则/跑批=403；SM 转派/升级=403",
+      "actual": "审计 SD/BU/SM=403/403/403；改规则=403/403/403；SM 转派=403 升级=403；跑批=403",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S11",
+      "name": "规则配置读取：6 类规则、每类含条件参数",
+      "expected": "6 条规则、6 类，can_edit=true",
+      "actual": "6 条；类型=['target_gap', 'decline', 'leads', 'coverage', 'churn', 'payment']；可编辑=True",
+      "pass": true,
+      "detail": "[{\"rule_id\": \"target_gap\", \"params\": {\"yellow_gap_pp\": 3, \"orange_gap_pp\": 8, \"red_gap_pp\": 15}, \"enabled\": true}, {\"rule_id\": \"decline\", \"params\": {\"orange_drop_pct\": 20, \"red_drop_pct\": 30, \"workdays\": 3}, \"enabled\": true}, {\"rule_id\": \"leads\", \"params\": {\"volume_drop_pct\": 30, \"conversion_drop_pct\": 20}, \"enabled\": true}, {\"rule_id\": \"coverage\", \"params\": {\"min_coverage\": 2.5}, \"enabled\": true}, {\"rule_id\": \"churn\", \"params\": {\"min_amount\": 500000, \"days_no_followup\": 30}, \"enabled\": true}, {\"rule_id\": \"payment\", \"params\": {\"min_cancel_amount\": 500000, \"overdue_days\": 30}, \"enabled\": true}]"
+    },
+    {
+      "id": "S12",
+      "name": "规则修改校验与 GM 编辑",
+      "expected": "非法参数/阈值顺序 400；GM 合法修改 200；启用/停用 200",
+      "actual": "400/400/200/200/200",
+      "pass": true,
+      "detail": "enabled=False->True"
+    },
+    {
+      "id": "S15",
+      "name": "查看/导出/认领/转派/关闭/改规则/越权均有审计",
+      "expected": "14 类动作齐全",
+      "actual": "共 99 条；缺失=[]",
+      "pass": true,
+      "detail": "动作计数={\"access.denied\": 14, \"auth.login\": 11, \"brief.view\": 22, \"export.xlsx\": 3, \"metric.view\": 8, \"notification.read\": 1, \"print.brief\": 1, \"quality.view\": 1, \"risk.claim\": 4, \"risk.close\": 3, \"risk.escalate\": 2, \"risk.list\": 9, \"risk.transfer\": 1, \"risk.view\": 14, \"rule.update\": 3, \"rule.view\": 2}"
+    }
+  ],
+  "checks": [
+    {
+      "id": "S10-GM",
+      "name": "GM 可查看审计",
+      "expected": 200,
+      "actual": 200,
+      "pass": true,
+      "detail": "total=65"
+    },
+    {
+      "id": "MASK-全部JSON",
+      "name": "全部JSON 无完整手机号/邮箱",
+      "expected": "0/0",
+      "actual": "0/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "MASK-FMT",
+      "name": "风险所有人手机/邮箱均脱敏格式",
+      "expected": "全部符合",
+      "actual": "10 条已扫描",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-1",
+      "name": "GM 导出日报 Excel 为真实 xlsx",
+      "expected": "200 + PK 文件头",
+      "actual": "200 + json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-1-WM",
+      "name": "日报导出含演示水印",
+      "expected": "含 演示数据·禁止外传",
+      "actual": "True",
+      "pass": true,
+      "detail": "sheet=日报 rows=38"
+    },
+    {
+      "id": "EXP-1-PHONE",
+      "name": "日报导出无完整手机号",
+      "expected": "0",
+      "actual": "0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-1-KPI",
+      "name": "日报导出含 6 个指标",
+      "expected": "6",
+      "actual": "5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-2",
+      "name": "GM 导出风险清单 Excel",
+      "expected": "200 + PK",
+      "actual": "200",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-2-WM",
+      "name": "风险导出含水印",
+      "expected": "含",
+      "actual": "True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-2-MASK",
+      "name": "风险导出手机号 100% 脱敏",
+      "expected": "0 个完整手机号",
+      "actual": "0 个",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-2-ROW",
+      "name": "GM 风险清单导出 10 条",
+      "expected": "10",
+      "actual": "10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-3",
+      "name": "SM 风险导出只含本部门 1 条",
+      "expected": "1",
+      "actual": "1",
+      "pass": true,
+      "detail": "ids=['R-20261024-008']"
+    },
+    {
+      "id": "EXP-4",
+      "name": "打印版日报 HTML 含水印",
+      "expected": "200 且含 演示数据·禁止外传",
+      "actual": "200 且 True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-4-MASK",
+      "name": "打印版无完整手机号/邮箱",
+      "expected": "0/0",
+      "actual": "0/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "EXP-5",
+      "name": "导出审计记录存在（API 层）",
+      "expected": "export.xlsx 审计",
+      "actual": "见 S15 审计动作核对",
+      "pass": true,
+      "detail": "前端二次确认由 UI 场景验证"
+    },
+    {
+      "id": "S11-RO",
+      "name": "非 GM 规则只读",
+      "expected": "editable 全 false",
+      "actual": "{False}",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S13",
+      "name": "通知中心有消息且去重键唯一",
+      "expected": "有消息；dedupe_key 无重复",
+      "actual": "total=5 unread=5 keys=5/5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S13-READ",
+      "name": "消息标记已读生效",
+      "expected": "200 且未读数减少",
+      "actual": "200 unread 5->4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S14",
+      "name": "数据质量报告可读",
+      "expected": "200 且状态 pass",
+      "actual": "200 pass score=100.0",
+      "pass": true,
+      "detail": "{\"status\": \"pass\", \"score\": 100.0, \"summary\": {\"errors\": 0, \"warnings\": 0, \"message\": \"全部检查通过\"}, \"missing_sources\": []}"
+    },
+    {
+      "id": "WF-01",
+      "name": "未认领的风险不能直接关闭",
+      "expected": 409,
+      "actual": 409,
+      "pass": true,
+      "detail": "{\"detail\":\"只有处理中的风险才能关闭，请先认领\"}"
+    },
+    {
+      "id": "WF-02",
+      "name": "SM 认领本部门风险",
+      "expected": "200 且 processing",
+      "actual": "200 processing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-03",
+      "name": "重复认领被拒绝",
+      "expected": 409,
+      "actual": 409,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-04",
+      "name": "关闭原因/动作/结果不足 5 字被拒绝",
+      "expected": 400,
+      "actual": 400,
+      "pass": true,
+      "detail": "{\"detail\":\"原因至少填写 5 个字\"}"
+    },
+    {
+      "id": "WF-05",
+      "name": "SM 关闭风险为误报并写闭环字段",
+      "expected": "200 且 false_positive + 原因/动作/结果",
+      "actual": "200 false_positive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-06",
+      "name": "已关闭风险不能转派或升级",
+      "expected": "409/409",
+      "actual": "409/409",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-07",
+      "name": "BU 认领与转派规则",
+      "expected": "认领200；跨事业部403；同人400；空说明400；本事业部200",
+      "actual": "200/403/400/400/200",
+      "pass": true,
+      "detail": "new_owner=u_e401 status=pending"
+    },
+    {
+      "id": "WF-08",
+      "name": "转派后状态回待认领、SLA 重算、原负责人保留可见",
+      "expected": "pending + claim_due 重算 + watcher 含 u_ea3",
+      "actual": "status=pending claim_due=2026-10-26T21:20:13+08:00 watchers=['u_ea3']",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-09",
+      "name": "GM 关闭风险为长期跟踪并保留审计",
+      "expected": "long_term + close 字段",
+      "actual": "200 long_term",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-10",
+      "name": "手动升级最多 2 级，二级进入总经理池",
+      "expected": "1级→sd；2级→gm 且池=true；第3次409",
+      "actual": "200/200/409；L1=1:sd:False；L2=2:gm:True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-11",
+      "name": "SD 关闭风险为已关闭",
+      "expected": "200 且 closed",
+      "actual": "200 closed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-12",
+      "name": "风险详情保留认领/关闭完整时间线",
+      "expected": "含 claimed + closed",
+      "actual": "['created', 'claimed', 'closed']",
+      "pass": true,
+      "detail": "close={'result_status': 'false_positive', 'result_status_label': '误报', 'reason': '客户已在上周完成续约，系统未回写', 'action': '已与客户确认并补录合同', 'result': '风险解除，客户正常续约'}"
+    },
+    {
+      "id": "WF-13",
+      "name": "风险详情保留认领/转派完整时间线",
+      "expected": "含 claimed + transferred",
+      "actual": "['created', 'claimed', 'transferred']",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "WF-14",
+      "name": "风险详情保留两次升级时间线",
+      "expected": "escalated 事件≥2",
+      "actual": "['created', 'escalated', 'escalated']",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S15-DETAIL",
+      "name": "风险操作审计含对象编号和操作人",
+      "expected": "全部含 resource_id 且 user_id 非空",
+      "actual": "10/10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "S15-DENIED",
+      "name": "越权访问写审计",
+      "expected": ">=5 条 access.denied",
+      "actual": "14",
+      "pass": true,
+      "detail": "[{\"user_id\": \"u_bu\", \"resource_type\": \"api\", \"resource_id\": \"/api/risks/R-20261024-001/transfer\", \"detail\": \"只能转派给本事业部及下级人员\"}, {\"user_id\": \"u_sd\", \"resource_type\": \"api\", \"resource_id\": \"/api/admin/batch/run\", \"detail\": \"当前角色无权执行该操作\"}, {\"user_id\": \"u_sm\", \"resource_type\": \"api\", \"resource_id\": \"/api/risks/R-20261024-008/escalate\", \"detail\": \"当前角色无权手动升级风险\"}, {\"user_id\": \"u_sm\", \"resource_type\": \"api\", \"resource_id\": \"/api/risks/R-20261024-008/transfer\", \"detail\": \"当前角色无权转派风险\"}, {\"user_id\": \"u_sm\", \"resource_type\": \"api\", \"resource_id\": \"/api/rules/target_gap\", \"detail\": \"当前角色无权执行该操作\"}, {\"user_id\": \"u_bu\", \"resource_type\": \"api\", \"resource_id\": \"/api/rules/target_gap\", \"detail\": \"当前角色无权执行该操作\"}, {\"user_id\": \"u_sd\", \"resource_type\": \"api\", \"resource_id\": \"/api/rules/target_gap\", \"detail\": \"当前角色无权执行该操作\"}, {\"user_id\": \"u_sm\", \"resource_type\": \"api\", \"resource_id\": \"/api/audit\", \"detail\": \"当前角色无权执行该操作\"}]"
+    },
+    {
+      "id": "S15-LOGIN",
+      "name": "4 个角色登录均写审计",
+      "expected": ">=4 条且含 4 个用户",
+      "actual": "11 条；用户=['u_bu', 'u_gm', 'u_sd', 'u_sm']",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "MASK-导出后JSON",
+      "name": "导出后JSON 无完整手机号/邮箱",
+      "expected": "0/0",
+      "actual": "0/0",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

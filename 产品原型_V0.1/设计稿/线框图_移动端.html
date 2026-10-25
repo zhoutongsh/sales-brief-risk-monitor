@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>线框图｜移动端</title>
+<style>
+  :root{
+    --ink:#3B414B; --mid:#6B7280; --line:#AEB6C2; --soft:#E5E8ED;
+    --fill:#F4F5F7; --paper:#FFFFFF; --bg:#EDF0F4; --anno:#2F5597;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);font-family:"Microsoft YaHei","PingFang SC",sans-serif;color:var(--ink);}
+  .page{width:1280px;margin:0 auto;padding:40px 50px 46px;}
+  .doc-head{border-bottom:2px solid #C9CFD8;padding-bottom:16px;margin-bottom:26px;}
+  .doc-head h1{font-size:26px;}
+  .doc-head p{font-size:12px;color:var(--mid);margin-top:7px;}
+  .legend{display:flex;gap:20px;font-size:11px;color:var(--mid);margin-top:12px;}
+  .legend b{color:var(--ink);}
+  .row{display:flex;gap:42px;align-items:flex-start;}
+  .col{width:360px;flex:none;}
+  .phone{
+    width:360px;height:720px;background:#fff;border:1px solid #AEB6C2;border-radius:30px;
+    box-shadow:0 12px 28px rgba(31,56,100,.10);position:relative;overflow:hidden;
+  }
+  .notch{position:absolute;left:50%;top:8px;transform:translateX(-50%);width:96px;height:20px;background:#3B414B;border-radius:12px;z-index:4;}
+  .status{height:34px;padding:10px 18px 0;display:flex;justify-content:space-between;font-size:8.5px;color:#5E6570;font-weight:700;}
+  .ph-head{height:44px;display:flex;align-items:center;padding:0 12px;border-bottom:1px solid #D5DAE2;}
+  .ph-head .back{width:28px;font-size:17px;color:#5E6570;}
+  .ph-head .title{font-size:13px;font-weight:700;}
+  .ph-head .sub{font-size:7.5px;color:#8A919C;font-weight:400;margin-left:6px;}
+  .ph-head .more{margin-left:auto;font-size:15px;color:#7A828E;letter-spacing:1px;}
+  .ph-body{padding:10px 11px;height:594px;overflow:hidden;display:flex;flex-direction:column;gap:8px;}
+  .tabbar{position:absolute;bottom:0;left:0;right:0;height:48px;border-top:1px solid #D5DAE2;background:#FBFBFC;display:flex;}
+  .tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:7px;color:#7A828E;}
+  .tab .ic{width:15px;height:15px;border:1.4px solid #7A828E;border-radius:3px;}
+  .tab.active{color:#252A31;font-weight:700;}
+  .tab.active .ic{border-color:#252A31;background:#DDE1E7;}
+  .pill{height:22px;border:1px solid #B9C0CA;border-radius:11px;padding:0 8px;font-size:8px;color:#5E6570;display:inline-flex;align-items:center;background:#FBFBFC;}
+  .card{border:1px solid #C9CFD8;background:#fff;border-radius:5px;padding:8px 9px;}
+  .label{font-size:7.5px;color:#7A828E;}
+  .insight{display:flex;gap:7px;}
+  .insight .mark{width:3px;align-self:stretch;background:#8A919C;border-radius:2px;}
+  .insight h4{font-size:9.5px;margin-bottom:4px;}
+  .insight ol{margin-left:12px;font-size:8px;line-height:1.6;color:#4B515A;}
+  .kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;}
+  .kpi{padding:7px 8px;}
+  .kpi .v{font-size:16px;font-weight:700;margin-top:3px;}
+  .kpi .v span{font-size:7.5px;font-weight:400;color:#7A828E;margin-left:2px;}
+  .kpi .d{font-size:7px;color:#5E6570;margin-top:2px;}
+  .section-h{display:flex;align-items:center;margin-top:1px;}
+  .section-h .t{font-size:9.5px;font-weight:700;}
+  .section-h .link{margin-left:auto;font-size:7.5px;color:#7A828E;}
+  .risk-item{border-top:1px solid #E5E8ED;padding:6px 0;display:flex;gap:6px;align-items:flex-start;}
+  .risk-item:first-of-type{border-top:none;}
+  .lv{width:3px;align-self:stretch;border-radius:2px;background:#6B7280;}
+  .ri{flex:1;min-width:0;}
+  .ri .t{font-size:8.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ri .m{font-size:7px;color:#7A828E;margin-top:2px;}
+  .sla{font-size:6.5px;border:1px solid #B9C0CA;border-radius:7px;padding:1px 4px;color:#4B515A;white-space:nowrap;}
+  .btn{border:1px solid #7A828E;background:#F7F8FA;border-radius:3px;font-size:7px;padding:3px 6px;color:#3B414B;white-space:nowrap;}
+  .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;}
+  .stat{border:1px solid #C9CFD8;border-radius:4px;padding:6px 7px;}
+  .stat .n{font-size:17px;font-weight:700;margin-top:2px;}
+  .chips{display:flex;gap:5px;}
+  .chip{font-size:7px;border:1px solid #B9C0CA;border-radius:9px;padding:2px 7px;color:#5E6570;}
+  .chip.on{background:#E1E5EB;border-color:#8A919C;color:#252A31;font-weight:700;}
+  .risk-card{border:1px solid #C9CFD8;border-radius:5px;padding:7px 8px;display:flex;gap:6px;}
+  .risk-card .body{flex:1;min-width:0;}
+  .risk-card .top{display:flex;align-items:center;gap:4px;}
+  .tag{font-size:6.5px;border:1px solid #8A919C;border-radius:3px;padding:0 3px;color:#4B515A;}
+  .risk-card .ttl{font-size:8.5px;font-weight:700;margin-top:3px;}
+  .risk-card .meta{font-size:7px;color:#7A828E;margin-top:2px;}
+  .risk-card .foot{display:flex;align-items:center;margin-top:5px;gap:5px;}
+  .risk-card .foot .sla{margin-left:auto;}
+  .detail-title{font-size:11px;font-weight:700;line-height:1.45;}
+  .kv{display:grid;grid-template-columns:1fr 1fr;gap:5px;}
+  .kv div{border:1px solid #D5DAE2;background:#FAFBFC;padding:5px 6px;border-radius:3px;}
+  .kv .k{font-size:6.5px;color:#8A919C;}
+  .kv .v{font-size:8px;font-weight:700;margin-top:2px;}
+  .evi{display:flex;justify-content:space-between;font-size:7.5px;padding:4px 0;border-bottom:1px dashed #E1E5EB;}
+  .evi span:last-child{color:#5E6570;}
+  .list{font-size:7.5px;line-height:1.65;padding-left:11px;color:#4B515A;}
+  .tl{font-size:7px;color:#5E6570;line-height:1.7;border-left:1.5px solid #D5DAE2;padding-left:7px;}
+  .detail-actions{position:absolute;bottom:0;left:0;right:0;height:52px;border-top:1px solid #D5DAE2;background:#fff;display:flex;align-items:center;gap:6px;padding:0 10px;}
+  .detail-actions .btn{flex:1;text-align:center;padding:7px 0;font-size:8.5px;}
+  .detail-actions .primary{background:#6B7280;color:#fff;border-color:#6B7280;}
+  .notes{margin-top:14px;}
+  .note{display:flex;gap:7px;font-size:9.5px;line-height:1.55;color:#4B515A;margin-bottom:6px;}
+  .num{display:inline-flex;width:16px;height:16px;border-radius:50%;background:var(--anno);color:#fff;font-size:8.5px;align-items:center;justify-content:center;font-weight:700;flex:none;font-family:Arial,sans-serif;line-height:1;vertical-align:middle;}
+  .phone-label{font-size:12px;font-weight:700;margin-bottom:10px;}
+  .phone-label span{font-weight:400;color:var(--mid);font-size:10px;margin-left:6px;}
+  .focus{position:absolute;border:1.5px dashed var(--anno);border-radius:4px;pointer-events:none;}
+  .focus .num{position:absolute;left:-9px;top:-9px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="doc-head">
+    <h1>线框图｜移动端（钉钉 / 企微 H5）</h1>
+    <p>手机是“触达 + 处理”入口，不追求看全；一屏内完成“看结论—看风险—接单”。｜V0.1｜2026-10-24</p>
+    <div class="legend"><span><b>页面 1</b> 今日简报</span><span><b>页面 2</b> 风险中心</span><span><b>页面 3</b> 风险详情 / 认领</span><span><b>标注</b> 序号对应各屏下方说明</span></div>
+  </div>
+
+  <div class="row">
+    <!-- PHONE 1 -->
+    <div class="col">
+      <div class="phone-label">页面 1｜今日简报 <span>08:30 推送落地页</span></div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+        <div class="ph-head"><div class="back"></div><div class="title">今日简报<span class="sub">10/24 周六</span></div><div class="more">⋯</div></div>
+        <div class="ph-body">
+          <div><span class="pill">公司总经理 · 全公司 ▾</span></div>
+          <div class="card insight">
+            <div class="mark"></div>
+            <div style="flex:1;">
+              <h4><span class="num" style="margin-right:4px;">1</span>今日 3 条结论</h4>
+              <ol>
+                <li>华东签约缺口 186 万，月底完成率约 92%。</li>
+                <li>信息流有效率 41%，环比 -12pp。</li>
+                <li>恒远科技 30 天未跟进，320 万，红色预警。</li>
+              </ol>
+            </div>
+          </div>
+          <div class="kpi-grid">
+            <div class="card kpi"><div class="label">今日签约额</div><div class="v">428.6<span>万</span></div><div class="d">↑ 12.4%  vs 昨日</div></div>
+            <div class="card kpi"><div class="label">目标完成率</div><div class="v">78.2<span>%</span></div><div class="d">落后时间进度 1.8pp</div></div>
+            <div class="card kpi"><div class="label">新增线索</div><div class="v">326<span>条</span></div><div class="d">↑ 18.6%  vs 昨日</div></div>
+            <div class="card kpi"><div class="label">营销 ROI</div><div class="v">4.8<span>x</span></div><div class="d">↑ 0.3  vs 上周</div></div>
+          </div>
+          <div class="section-h"><span class="t"><span class="num" style="margin-right:4px;">2</span>Top3 风险</span><span class="link">全部 12 条 →</span></div>
+          <div class="risk-item"><div class="lv" style="background:#3B414B;"></div><div class="ri"><div class="t">恒远科技 30 天未跟进</div><div class="m">大客户流失 · 李娜</div></div><span class="sla">2h18m</span><button class="btn">去处理</button></div>
+          <div class="risk-item"><div class="lv" style="background:#6B7280;"></div><div class="ri"><div class="t">华东事业部缺口 186 万</div><div class="m">目标缺口 · 王强</div></div><span class="sla">5h42m</span><button class="btn">去处理</button></div>
+          <div class="risk-item"><div class="lv" style="background:#9AA1AC;"></div><div class="ri"><div class="t">信息流线索有效率 41%</div><div class="m">线索异常 · 陈晨</div></div><span class="sla">18h</span><button class="btn">去处理</button></div>
+          <div class="card" style="background:#FAFBFC;">
+            <div style="font-size:8px;font-weight:700;margin-bottom:3px;">今日建议动作</div>
+            <div style="font-size:7.2px;line-height:1.7;color:#4B515A;">① 约谈华东王强，今天给出缺口补齐计划<br>② 过问恒远科技，安排本周现场拜访<br>③ 让市场部核查信息流渠道质量</div>
+          </div>
+          <div style="font-size:6.8px;color:#8A919C;border-top:1px dashed #E1E5EB;padding-top:5px;margin-top:auto;">数据截至 08:00 · 点击任意数字可下钻</div>
+        </div>
+        <div class="tabbar"><div class="tab active"><div class="ic"></div>简报</div><div class="tab"><div class="ic"></div>风险</div><div class="tab"><div class="ic"></div>周报</div><div class="tab"><div class="ic"></div>我的</div></div>
+      </div>
+      <div class="notes">
+        <div class="note"><span class="num">1</span><div><b>3 条结论优先</b>：手机首屏先给判断，不先给图表；结论可点。</div></div>
+        <div class="note"><span class="num">2</span><div><b>Top3 风险</b>：级别用色条 + 文字，SLA 用倒计时，按钮直接进详情。</div></div>
+        <div class="note"><span class="num">3</span><div><b>底部导航</b>：只保留四个高频入口，配置类功能不上手机。</div></div>
+      </div>
+    </div>
+
+    <!-- PHONE 2 -->
+    <div class="col">
+      <div class="phone-label">页面 2｜风险中心 <span>按级别 / 状态筛选</span></div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+        <div class="ph-head"><div class="back">‹</div><div class="title">风险中心</div><div class="more">筛选</div></div>
+        <div class="ph-body">
+          <div class="stat-row">
+            <div class="stat"><div class="label">待认领</div><div class="n">5</div></div>
+            <div class="stat"><div class="label">处理中</div><div class="n">4</div></div>
+            <div class="stat"><div class="label">已超时</div><div class="n">1</div></div>
+          </div>
+          <div class="chips"><span class="chip on">全部 12</span><span class="chip">红 2</span><span class="chip">橙 4</span><span class="chip">黄 6</span><span class="chip" style="margin-left:auto;">按组织 ▾</span></div>
+          <div class="risk-card"><div class="lv" style="background:#3B414B;"></div><div class="body"><div class="top"><span class="tag">红色</span><span class="tag">大客户流失</span></div><div class="ttl">恒远科技 30 天未跟进</div><div class="meta">商机 320 万 · 负责人 李娜</div><div class="foot"><span class="sla">剩 2h18m</span><button class="btn" style="margin-left:auto;">认领</button></div></div></div>
+          <div class="risk-card"><div class="lv" style="background:#3B414B;"></div><div class="body"><div class="top"><span class="tag">红色</span><span class="tag">订单 / 回款</span></div><div class="ttl">宏达集团回款逾期 18 天</div><div class="meta">应收 320 万 · 负责人 赵磊</div><div class="foot"><span class="sla">剩 3h05m</span><button class="btn" style="margin-left:auto;">查看</button></div></div></div>
+          <div class="risk-card"><div class="lv" style="background:#6B7280;"></div><div class="body"><div class="top"><span class="tag">橙色</span><span class="tag">目标缺口</span></div><div class="ttl">华东事业部签约缺口 186 万</div><div class="meta">完成率 78% · 负责人 王强</div><div class="foot"><span class="sla">剩 5h42m</span><button class="btn" style="margin-left:auto;">认领</button></div></div></div>
+          <div class="risk-card"><div class="lv" style="background:#9AA1AC;"></div><div class="body"><div class="top"><span class="tag">黄色</span><span class="tag">线索异常</span></div><div class="ttl">信息流线索有效率跌至 41%</div><div class="meta">环比 -12pp · 负责人 陈晨</div><div class="foot"><span class="sla">剩 18h</span><button class="btn" style="margin-left:auto;">认领</button></div></div></div>
+          <div class="risk-card"><div class="lv" style="background:#9AA1AC;"></div><div class="body"><div class="top"><span class="tag">黄色</span><span class="tag">商机覆盖</span></div><div class="ttl">华南大区商机覆盖不足 2.1 倍</div><div class="meta">目标 3 倍 · 负责人 周敏</div><div class="foot"><span class="sla">剩 19h</span><button class="btn" style="margin-left:auto;">认领</button></div></div></div>
+          <div style="text-align:center;font-size:7px;color:#8A919C;border-top:1px dashed #E1E5EB;padding-top:5px;">上滑加载更多 · 已关闭风险不占首屏</div>
+        </div>
+        <div class="tabbar"><div class="tab"><div class="ic"></div>简报</div><div class="tab active"><div class="ic"></div>风险</div><div class="tab"><div class="ic"></div>周报</div><div class="tab"><div class="ic"></div>我的</div></div>
+      </div>
+      <div class="notes">
+        <div class="note"><span class="num">4</span><div><b>三段式</b>：总览 → 筛选 → 卡片列表；默认“待认领”，不一上来给全量。</div></div>
+        <div class="note"><span class="num">5</span><div><b>卡片信息</b>：级别、类型、对象、金额、责任人、SLA、动作，七件套缺一不可。</div></div>
+      </div>
+    </div>
+
+    <!-- PHONE 3 -->
+    <div class="col">
+      <div class="phone-label">页面 3｜风险详情 <span>判断 + 认领 + 留痕</span></div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+        <div class="ph-head"><div class="back">‹</div><div class="title">风险详情</div><div class="more">⋯</div></div>
+        <div class="ph-body" style="height:668px;padding-bottom:60px;">
+          <div><span class="tag" style="border-color:#3B414B;">红色</span><span class="tag">大客户流失</span><span class="tag">R-20261024-018</span></div>
+          <div class="detail-title">恒远科技 30 天未跟进</div>
+          <div class="kv">
+            <div><div class="k">客户</div><div class="v">恒远科技</div></div>
+            <div><div class="k">商机金额</div><div class="v">320 万</div></div>
+            <div><div class="k">负责人</div><div class="v">李娜 · 华东一部</div></div>
+            <div><div class="k">SLA 剩余</div><div class="v">2 小时 18 分</div></div>
+          </div>
+          <div class="section-h"><span class="t">为什么报</span></div>
+          <div class="evi"><span>最后跟进距今天数</span><span>32 天（阈值 ≥30）</span></div>
+          <div class="evi"><span>商机阶段停留</span><span>方案确认 · 18 天</span></div>
+          <div class="evi"><span>同期客户活跃度</span><span>低于同组 72%</span></div>
+          <div class="section-h"><span class="t">建议动作</span></div>
+          <ul class="list"><li>今天 12:00 前电话确认预算与决策人</li><li>48 小时内安排现场拜访</li><li>无进展则转交事业部总介入</li></ul>
+          <div class="section-h"><span class="t">处理时间线</span></div>
+          <div class="tl">08:30 系统触发预警，推送钉钉<br>08:35 已推送给李娜 / 王强<br>08:42 等待认领 · 剩余 2h18m</div>
+          <div class="section-h"><span class="t">关联商机</span><span class="link">2 条</span></div>
+          <div class="card" style="padding:5px 7px;background:#FAFBFC;">
+            <div class="evi" style="padding:2px 0;border-bottom:none;"><span>恒远科技 · 智能仓储</span><span>320 万 / 方案确认</span></div>
+            <div class="evi" style="padding:2px 0;border-bottom:none;border-top:1px dashed #E1E5EB;"><span>恒远科技 · 二期扩容</span><span>80 万 / 初步接触</span></div>
+          </div>
+          <div style="font-size:6.8px;color:#8A919C;">历史预警 2 次，均已关闭 · 无重复计数</div>
+        </div>
+        <div class="detail-actions"><button class="btn primary">认领并处理</button><button class="btn">转派</button><button class="btn">关闭</button></div>
+      </div>
+      <div class="notes">
+        <div class="note"><span class="num">1</span><div><b>先判断</b>：级别、对象、金额、责任人、SLA 固定在首屏，不用滑。</div></div>
+        <div class="note"><span class="num">2</span><div><b>再给证据</b>：每个数字都带阈值，解释“为什么报”，减少误报争议。</div></div>
+        <div class="note"><span class="num">3</span><div><b>最后动作</b>：认领 / 转派 / 关闭固定在底部，单手可点。</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

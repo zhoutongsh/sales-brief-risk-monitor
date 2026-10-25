@@ -1,0 +1,9 @@
+# 日常销售数据动态监控 MVP V0.1
+# 仅用于本地演示，不是生产依赖清单。
+fastapi==0.162.0
+uvicorn==0.54.0
+itsdangerous==2.2.0
+openpyxl==3.1.5
+httpx==0.28.1
+websockets==17.3
+pytest==9.1.1

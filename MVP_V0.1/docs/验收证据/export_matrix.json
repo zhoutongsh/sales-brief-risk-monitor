@@ -1,0 +1,30 @@
+[
+  {
+    "user": "u_gm",
+    "status": 200,
+    "data_rows": 10,
+    "expect": 10,
+    "pass": true
+  },
+  {
+    "user": "u_sd",
+    "status": 200,
+    "data_rows": 10,
+    "expect": 10,
+    "pass": true
+  },
+  {
+    "user": "u_bu",
+    "status": 200,
+    "data_rows": 6,
+    "expect": 6,
+    "pass": true
+  },
+  {
+    "user": "u_sm",
+    "status": 200,
+    "data_rows": 1,
+    "expect": 1,
+    "pass": true
+  }
+]

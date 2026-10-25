@@ -1,0 +1,47 @@
+{
+  "returncodes": [
+    0,
+    0,
+    0
+  ],
+  "statuses": [
+    "success",
+    "success",
+    "success"
+  ],
+  "counts": [
+    {
+      "risks": 10,
+      "evidence": 30,
+      "metrics": 187,
+      "notifications": 31,
+      "daily": 4,
+      "weekly": 8
+    },
+    {
+      "risks": 10,
+      "evidence": 30,
+      "metrics": 187,
+      "notifications": 31,
+      "daily": 4,
+      "weekly": 8
+    },
+    {
+      "risks": 10,
+      "evidence": 30,
+      "metrics": 187,
+      "notifications": 31,
+      "daily": 4,
+      "weekly": 8
+    }
+  ],
+  "run1_equals_run2": true,
+  "run2_equals_run3": true,
+  "all_equal": true,
+  "notification_dedupe_unique": true,
+  "batch_ids": [
+    "B-20261024-212305-05DA",
+    "B-20261024-212305-3565",
+    "B-20261024-212305-94D3"
+  ]
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "role": "gm",
+    "action": "batch.run",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": null,
+    "body": "success"
+  },
+  {
+    "role": "sd",
+    "action": "claim",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": null,
+    "body": "processing"
+  },
+  {
+    "role": "sd",
+    "action": "transfer",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": {
+      "owner": "u_bu"
+    },
+    "body": "pending"
+  },
+  {
+    "role": "sd",
+    "action": "escalate",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": {
+      "level": 1
+    },
+    "body": "pending"
+  },
+  {
+    "role": "bu",
+    "action": "claim",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": null,
+    "body": "processing"
+  },
+  {
+    "role": "bu",
+    "action": "close",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": {
+      "status": "closed"
+    },
+    "body": "closed"
+  },
+  {
+    "role": "bu",
+    "action": "escalate",
+    "status": 200,
+    "expect": 200,
+    "pass": true,
+    "extra": {
+      "level": 1
+    },
+    "body": "pending"
+  },
+  {
+    "role": "sm",
+    "action": "audit",
+    "status": 403,
+    "expect": 403,
+    "pass": true,
+    "extra": null,
+    "body": "当前角色无权执行该操作"
+  },
+  {
+    "role": "sm",
+    "action": "rules.patch",
+    "status": 403,
+    "expect": 403,
+    "pass": true,
+    "extra": null,
+    "body": "当前角色无权执行该操作"
+  },
+  {
+    "role": "sm",
+    "action": "batch.run",
+    "status": 403,
+    "expect": 403,
+    "pass": true,
+    "extra": null,
+    "body": "当前角色无权执行该操作"
+  },
+  {
+    "role": "sm",
+    "action": "transfer",
+    "status": 403,
+    "expect": 403,
+    "pass": true,
+    "extra": null,
+    "body": "当前角色无权转派风险"
+  },
+  {
+    "role": "sm",
+    "action": "escalate",
+    "status": 403,
+    "expect": 403,
+    "pass": true,
+    "extra": null,
+    "body": "当前角色无权手动升级风险"
+  }
+]

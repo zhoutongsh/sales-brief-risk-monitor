@@ -1,0 +1,171 @@
+{
+  "scenarios_total": 29,
+  "scenarios_passed": 29,
+  "scenarios_failed": 0,
+  "checks_total": 37,
+  "checks_passed": 37,
+  "checks_failed": 0,
+  "unauth_statuses": [
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/brief/daily",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/brief/weekly?week=this",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/metrics",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/metrics/new_leads/drill",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/risks",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/risks/R-20261024-001",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/rules",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/quality",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/notifications",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/audit",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/export/brief.xlsx",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/export/risks.xlsx",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/print/brief",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/batch/run",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/risks/R-20261024-001/claim",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/risks/R-20261024-001/transfer",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/risks/R-20261024-001/close",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/risks/R-20261024-001/escalate",
+      "status": 401
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/rules/target_gap",
+      "status": 401
+    }
+  ],
+  "mobile_statuses": [
+    {
+      "path": "/m",
+      "status": 404
+    },
+    {
+      "path": "/m/",
+      "status": 404
+    },
+    {
+      "path": "/mobile",
+      "status": 404
+    },
+    {
+      "path": "/mobile/",
+      "status": 404
+    },
+    {
+      "path": "/h5",
+      "status": 404
+    },
+    {
+      "path": "/h5/",
+      "status": 404
+    }
+  ]
+}
+
+FAILED SCENARIOS:
+
+FAILED CHECKS:
+
+ALL SCENARIOS:
+S01          PASS 未登录访问全部受保护接口返回 401 | 20/20 为 401；其他=[]
+S02          PASS 移动端/H5 路由确实不存在 | [{"path": "/m", "status": 404}, {"path": "/m/", "status": 404}, {"path": "/mobile", "status": 404}, {"path": "/mobile/", "status": 404}, {"path": "/h5", "status": 404}, {"path": "/h5/", "status": 404}]
+S03          PASS 健康检查声明不支持移动端 | {"ok": true, "demo": true, "mobile_supported": false}
+S04-u_gm     PASS u_gm 登录并读取个人资料 | gm / 全公司
+S04-u_sd     PASS u_sd 登录并读取个人资料 | sd / 全公司
+S04-u_bu     PASS u_bu 登录并读取个人资料 | bu / 华东事业部
+S04-u_sm     PASS u_sm 登录并读取个人资料 | sm / 华东一部
+S05-u_gm     PASS u_gm 风险/日报/指标行级范围 | 风险 10 条，日报范围 全公司，指标 200
+S05-u_sd     PASS u_sd 风险/日报/指标行级范围 | 风险 10 条，日报范围 全公司，指标 200
+S05-u_bu     PASS u_bu 风险/日报/指标行级范围 | 风险 6 条，日报范围 华东事业部，指标 200
+S05-u_sm     PASS u_sm 风险/日报/指标行级范围 | 风险 1 条，日报范围 华东一部，指标 200
+S06-u_gm     PASS u_gm 日报完整结构 | 结论3 指标6 风险Top3 动作3 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00
+S06-u_sd     PASS u_sd 日报完整结构 | 结论3 指标6 风险Top3 动作3 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00
+S06-u_bu     PASS u_bu 日报完整结构 | 结论3 指标6 风险Top3 动作3 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00
+S06-u_sm     PASS u_sm 日报完整结构 | 结论3 指标6 风险Top1 动作1 说明4 渠道5 趋势4 发布2026-10-24T08:30:00+08:00
+S07-u_gm-this PASS u_gm 本周周报完整结构 | 指标6 结论3 排名4 日6 动作3 发布2026-10-24T09:00:00+08:00
+S07-u_gm-last PASS u_gm 上周周报完整结构 | 指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00
+S07-u_sd-this PASS u_sd 本周周报完整结构 | 指标6 结论3 排名4 日6 动作3 发布2026-10-24T09:00:00+08:00
+S07-u_sd-last PASS u_sd 上周周报完整结构 | 指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00
+S07-u_bu-this PASS u_bu 本周周报完整结构 | 指标6 结论3 排名4 日6 动作3 发布2026-10-24T09:00:00+08:00
+S07-u_bu-last PASS u_bu 上周周报完整结构 | 指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00
+S07-u_sm-this PASS u_sm 本周周报完整结构 | 指标6 结论3 排名4 日6 动作1 发布2026-10-24T09:00:00+08:00
+S07-u_sm-last PASS u_sm 上周周报完整结构 | 指标6 结论3 排名4 日7 动作1 发布2026-10-19T09:00:00+08:00
+S08          PASS 发布时间按计划时间存储（日报 08:30；本周六 09:00；上周一 09:00） | 2026-10-24T08:30:00+08:00 / 2026-10-24T09:00:00+08:00 / 2026-10-19T09:00:00+08:00
+S09          PASS 跨组织数据范围访问被拒绝 | 403/403/403/403
+S10          PASS 角色功能越权全部拒绝 | 审计 SD/BU/SM=403/403/403；改规则=403/403/403；SM 转派=403 升级=403；跑批=403
+S11          PASS 规则配置读取：6 类规则、每类含条件参数 | 6 条；类型=['target_gap', 'decline', 'leads', 'coverage', 'churn', 'payment']；可编辑=True
+S12          PASS 规则修改校验与 GM 编辑 | 400/400/200/200/200
+S15          PASS 查看/导出/认领/转派/关闭/改规则/越权均有审计 | 共 99 条；缺失=[]

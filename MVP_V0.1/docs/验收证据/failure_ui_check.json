@@ -1,0 +1,297 @@
+{
+  "api_quality": {
+    "status_code": 200,
+    "body": {
+      "as_of": "2026-10-24",
+      "batch_id": "B-20261024-220849-D726",
+      "generated_at": "2026-10-24T22:08:49+08:00",
+      "status": "fail",
+      "score": null,
+      "summary": {
+        "errors": 1,
+        "warnings": 0,
+        "message": "源文件缺失，批次停止发布"
+      },
+      "checks": [
+        {
+          "key": "completeness",
+          "label": "字段完整性",
+          "status": "fail",
+          "value": "未执行",
+          "detail": "抽取阶段失败，未对旧快照执行字段完整性检查。"
+        },
+        {
+          "key": "duplicates",
+          "label": "主键重复",
+          "status": "fail",
+          "value": "未执行",
+          "detail": "抽取阶段失败，未对旧快照执行主键重复检查。"
+        },
+        {
+          "key": "targets",
+          "label": "目标缺失",
+          "status": "fail",
+          "value": "未执行",
+          "detail": "抽取阶段失败，未对旧快照执行目标覆盖检查。"
+        },
+        {
+          "key": "mapping",
+          "label": "组织/负责人映射",
+          "status": "fail",
+          "value": "未执行",
+          "detail": "抽取阶段失败，未对旧快照执行映射检查。"
+        },
+        {
+          "key": "sources",
+          "label": "源文件完整性",
+          "status": "fail",
+          "value": "9/10",
+          "detail": "缺失：leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）"
+        }
+      ],
+      "completeness": {
+        "score": null,
+        "missing_cells": null,
+        "checked_cells": null,
+        "by_source": []
+      },
+      "duplicates": {
+        "rate": null,
+        "duplicate_rows": null,
+        "rows": null,
+        "by_source": []
+      },
+      "targets": {
+        "orgs_total": null,
+        "orgs_with_target": null,
+        "orgs_missing": [],
+        "sales_users_total": null,
+        "sales_users_with_target": null,
+        "users_missing": [],
+        "status": "unknown"
+      },
+      "mapping": {
+        "failures": [],
+        "count": null
+      },
+      "missing_sources": [
+        "leads.csv"
+      ],
+      "missing_source_details": [
+        {
+          "file": "leads.csv",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv",
+          "metrics": [
+            "新增线索数",
+            "有效线索数",
+            "线索有效率",
+            "线索转化率",
+            "线索异常风险"
+          ]
+        }
+      ],
+      "affected_metrics": [
+        {
+          "reason": "缺失源文件 leads.csv，依赖这些文件的指标无法计算",
+          "label": "新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险",
+          "metrics": [
+            "新增线索数",
+            "有效线索数",
+            "线索有效率",
+            "线索转化率",
+            "线索异常风险"
+          ],
+          "sources": [
+            "leads.csv"
+          ],
+          "severity": "error"
+        }
+      ],
+      "source_stats": {
+        "source_dir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing"
+      },
+      "batch": {
+        "started_at": "2026-10-24T22:08:49+08:00",
+        "finished_at": "2026-10-24T22:08:49+08:00",
+        "duration_seconds": 0.01,
+        "steps": [
+          {
+            "step": "extract",
+            "label": "抽取与校验",
+            "status": "failed",
+            "started_at": "2026-10-24T22:08:49+08:00",
+            "finished_at": "2026-10-24T22:08:49+08:00",
+            "duration_ms": 6,
+            "stats": {},
+            "error": "源数据校验失败：缺少源文件 leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）；影响指标：新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险。批次已停止并回滚，未生成新的日报、周报或风险结论。"
+          }
+        ]
+      },
+      "failure": {
+        "stage": "extract",
+        "kind": "missing_source",
+        "message": "缺少源文件 leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）；影响指标：新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险。批次已停止并回滚，未生成新的日报、周报或风险结论。",
+        "missing_files": [
+          {
+            "file": "leads.csv",
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv",
+            "metrics": [
+              "新增线索数",
+              "有效线索数",
+              "线索有效率",
+              "线索转化率",
+              "线索异常风险"
+            ]
+          }
+        ],
+        "affected_metrics": [
+          {
+            "reason": "缺失源文件 leads.csv，依赖这些文件的指标无法计算",
+            "label": "新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险",
+            "metrics": [
+              "新增线索数",
+              "有效线索数",
+              "线索有效率",
+              "线索转化率",
+              "线索异常风险"
+            ],
+            "sources": [
+              "leads.csv"
+            ],
+            "severity": "error"
+          }
+        ]
+      },
+      "server_time": "2026-10-24T22:09:55+08:00"
+    }
+  },
+  "banner": {
+    "status": "批次失败",
+    "dataPill": "批次失败",
+    "alertHidden": false,
+    "alertText": "最近批次失败缺少源文件 leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）；影响指标：新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险。批次已停止并回滚，未生成新的日报、周报或风险结论。查看数据质量"
+  },
+  "layout_1280x720": {
+    "vh": 720,
+    "alertHidden": false,
+    "alertText": "最近批次失败缺少源文件 leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）；影响指标：新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险。批次已停止并回滚，未生成新的日报、周报或风险结论。查看数据质量",
+    "kpis": [
+      {
+        "top": 371,
+        "bottom": 475,
+        "fully": true
+      },
+      {
+        "top": 371,
+        "bottom": 475,
+        "fully": true
+      },
+      {
+        "top": 371,
+        "bottom": 475,
+        "fully": true
+      },
+      {
+        "top": 371,
+        "bottom": 475,
+        "fully": true
+      },
+      {
+        "top": 371,
+        "bottom": 475,
+        "fully": true
+      },
+      {
+        "top": 371,
+        "bottom": 475,
+        "fully": true
+      }
+    ],
+    "risks": [
+      {
+        "top": 544,
+        "bottom": 616,
+        "fully": true
+      },
+      {
+        "top": 616,
+        "bottom": 696,
+        "fully": true
+      },
+      {
+        "top": 696,
+        "bottom": 775,
+        "fully": false
+      }
+    ],
+    "kpiAll": true,
+    "riskAll": false,
+    "kpiBottom": 475,
+    "riskBottom": 775
+  },
+  "quality_page": {
+    "hasMissingFile": true,
+    "hasAffected": true,
+    "hasBatchFailed": true,
+    "snippet": "缺失源文件 leads.csv，依赖这些文件的指标无法计算\n              缺失源文件：leads.csv目标覆盖：组织 — / —；销售个人 — / —。映射失败：— 条。\n            \n          \n        \n        批次步骤批处理按真实依赖顺序执行；同日重跑幂等\n          步骤状态耗时(ms)说明\n   ",
+    "text": "\n      \n        DATA QUALITY · 批处理检查数据质量\n          每次批处理都会检查字段完整性、主键重复、目标覆盖、组织/负责人映射与源文件完整性。检查不通过时批处理停止发布，保留上一份可用快照。\n          业务日期 2026-10-24·批次 B-20261024-220849-D726·完成 2026-10-24 22:08·耗时 0.01 秒\n          存在阻断问题\n        \n        \n          质量得分未评分源文件缺失，批次停止发布\n            存在阻断问题\n          五项检查错误 1 项 · 提示 0 项\n            字段完整性：未执行抽取阶段失败，未对旧快照执行字段完整性检查。主键重复：未执行抽取阶段失败，未对旧快照执行主键重复检查。目标缺失：未执行抽取阶段失败，未对旧快照执行目标覆盖检查。组织/负责人映射：未执行抽取阶段失败，未对旧快照执行映射检查。源文件完整性：9/10缺失：leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）\n          \n        \n        \n          完整性明细检查 — 个必填单元格，缺失 — 个\n            \n          \n          影响范围质量异常会标注相关指标；不会用 0 补齐\n            \n              新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险：缺失源文件 leads.csv，依赖这些文件的指标无法计算\n              缺失源文件：leads.csv目标覆盖：组织 — / —；销售个人 — / —。映射失败：— 条。\n            \n          \n        \n        批次步骤批处理按真实依赖顺序执行；同日重跑幂等\n          步骤状态耗时(ms)说明\n            抽取与校验failed6源数据校验失败：缺少源文件 leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）；影响指标：新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险。批次已停止并回滚，未生成新的日报、周报或风险结论。\n          \n        \n      "
+  },
+  "layout_1280x800": {
+    "vh": 800,
+    "alertHidden": false,
+    "alertText": "最近批次失败缺少源文件 leads.csv（C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\source_missing\\leads.csv）；影响指标：新增线索数、有效线索数、线索有效率、线索转化率、线索异常风险。批次已停止并回滚，未生成新的日报、周报或风险结论。查看数据质量",
+    "kpis": [
+      {
+        "top": 389,
+        "bottom": 493,
+        "fully": true
+      },
+      {
+        "top": 389,
+        "bottom": 493,
+        "fully": true
+      },
+      {
+        "top": 389,
+        "bottom": 493,
+        "fully": true
+      },
+      {
+        "top": 389,
+        "bottom": 493,
+        "fully": true
+      },
+      {
+        "top": 389,
+        "bottom": 493,
+        "fully": true
+      },
+      {
+        "top": 389,
+        "bottom": 493,
+        "fully": true
+      }
+    ],
+    "risks": [
+      {
+        "top": 566,
+        "bottom": 640,
+        "fully": true
+      },
+      {
+        "top": 640,
+        "bottom": 724,
+        "fully": true
+      },
+      {
+        "top": 724,
+        "bottom": 807,
+        "fully": false
+      }
+    ],
+    "kpiAll": true,
+    "riskAll": false,
+    "kpiBottom": 493,
+    "riskBottom": 807
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "summary": {
+    "total": 10,
+    "evidence_fields_ok": 10,
+    "sla_ok": 10,
+    "timeline_ok": 10,
+    "actions_ok": 10,
+    "number_ok": 10,
+    "by_level": {
+      "red": 6,
+      "orange": 2,
+      "yellow": 2
+    }
+  },
+  "items": [
+    {
+      "id": "R-20261024-002",
+      "level": "red",
+      "type": "target_gap",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "E140",
+        "name": "华东四部"
+      },
+      "owner": "u_ea4",
+      "amount_wan": 200.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "时间进度 − 完成进度",
+        "剩余签约目标",
+        "目标完成率"
+      ],
+      "claim_due_at": "2026-10-25T00:37:44+08:00",
+      "claim_expected": "2026-10-25T00:37:44+08:00",
+      "close_due_at": "2026-10-28T20:37:44+08:00",
+      "close_expected": "2026-10-28T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 1,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-003",
+      "level": "red",
+      "type": "target_gap",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "W400",
+        "name": "西部大区"
+      },
+      "owner": "u_west",
+      "amount_wan": 500.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "时间进度 − 完成进度",
+        "剩余签约目标",
+        "目标完成率"
+      ],
+      "claim_due_at": "2026-10-25T00:37:44+08:00",
+      "claim_expected": "2026-10-25T00:37:44+08:00",
+      "close_due_at": "2026-10-28T20:37:44+08:00",
+      "close_expected": "2026-10-28T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 1,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-004",
+      "level": "red",
+      "type": "decline",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "E130",
+        "name": "华东三部"
+      },
+      "owner": "u_ea3",
+      "amount_wan": 30.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "最近 3 个有数据工作日签约额",
+        "两段日环比",
+        "最后工作日签约额"
+      ],
+      "claim_due_at": "2026-10-25T00:37:44+08:00",
+      "claim_expected": "2026-10-25T00:37:44+08:00",
+      "close_due_at": "2026-10-28T20:37:44+08:00",
+      "close_expected": "2026-10-28T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 0,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-008",
+      "level": "red",
+      "type": "churn",
+      "object": {
+        "type": "opportunity",
+        "type_label": "商机",
+        "id": "OPP-2026-0001",
+        "name": "恒远科技"
+      },
+      "owner": "u_sm",
+      "amount_wan": 320.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "距最后跟进天数",
+        "开放商机金额",
+        "客户"
+      ],
+      "claim_due_at": "2026-10-25T00:37:44+08:00",
+      "claim_expected": "2026-10-25T00:37:44+08:00",
+      "close_due_at": "2026-10-28T20:37:44+08:00",
+      "close_expected": "2026-10-28T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 2,
+      "related_opportunities": 0,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-009",
+      "level": "red",
+      "type": "payment",
+      "object": {
+        "type": "order",
+        "type_label": "订单",
+        "id": "SO-2026-0054",
+        "name": "海联工业"
+      },
+      "owner": "u_south1",
+      "amount_wan": 80.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "单笔订单取消金额",
+        "订单状态",
+        "客户"
+      ],
+      "claim_due_at": "2026-10-25T00:37:44+08:00",
+      "claim_expected": "2026-10-25T00:37:44+08:00",
+      "close_due_at": "2026-10-28T20:37:44+08:00",
+      "close_expected": "2026-10-28T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 2,
+      "related_opportunities": 0,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-010",
+      "level": "red",
+      "type": "payment",
+      "object": {
+        "type": "receivable",
+        "type_label": "应收",
+        "id": "AR-2026-0061",
+        "name": "宏达集团"
+      },
+      "owner": "u_south2",
+      "amount_wan": 120.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "应收逾期天数",
+        "未回款金额",
+        "客户"
+      ],
+      "claim_due_at": "2026-10-25T00:37:44+08:00",
+      "claim_expected": "2026-10-25T00:37:44+08:00",
+      "close_due_at": "2026-10-28T20:37:44+08:00",
+      "close_expected": "2026-10-28T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 2,
+      "related_opportunities": 0,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-005",
+      "level": "orange",
+      "type": "leads",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "E140",
+        "name": "华东四部"
+      },
+      "owner": "u_ea4",
+      "amount_wan": 0.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "本周新增线索 / 上周同期",
+        "新增线索周环比",
+        "线索转化率相对变化"
+      ],
+      "claim_due_at": "2026-10-25T04:37:44+08:00",
+      "claim_expected": "2026-10-25T04:37:44+08:00",
+      "close_due_at": "2026-10-30T20:37:44+08:00",
+      "close_expected": "2026-10-30T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 0,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-007",
+      "level": "orange",
+      "type": "coverage",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "E120",
+        "name": "华东二部"
+      },
+      "owner": "u_ea2",
+      "amount_wan": 0.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "商机覆盖率",
+        "开放商机管道金额",
+        "剩余签约目标"
+      ],
+      "claim_due_at": "2026-10-25T04:37:44+08:00",
+      "claim_expected": "2026-10-25T04:37:44+08:00",
+      "close_due_at": "2026-10-30T20:37:44+08:00",
+      "close_expected": "2026-10-30T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 0,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-001",
+      "level": "yellow",
+      "type": "target_gap",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "E130",
+        "name": "华东三部"
+      },
+      "owner": "u_ea3",
+      "amount_wan": 150.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "时间进度 − 完成进度",
+        "剩余签约目标",
+        "目标完成率"
+      ],
+      "claim_due_at": "2026-10-26T20:37:44+08:00",
+      "claim_expected": "2026-10-26T20:37:44+08:00",
+      "close_due_at": "2026-11-06T20:37:44+08:00",
+      "close_expected": "2026-11-06T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 1,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    },
+    {
+      "id": "R-20261024-006",
+      "level": "yellow",
+      "type": "leads",
+      "object": {
+        "type": "org",
+        "type_label": "组织",
+        "id": "N300",
+        "name": "华北大区"
+      },
+      "owner": "u_north",
+      "amount_wan": 0.0,
+      "evidence_count": 3,
+      "evidence_fields_ok": true,
+      "evidence_labels": [
+        "本周新增线索 / 上周同期",
+        "新增线索周环比",
+        "线索转化率相对变化"
+      ],
+      "claim_due_at": "2026-10-26T20:37:44+08:00",
+      "claim_expected": "2026-10-26T20:37:44+08:00",
+      "close_due_at": "2026-11-06T20:37:44+08:00",
+      "close_expected": "2026-11-06T20:37:44+08:00",
+      "sla_ok": true,
+      "actions": 3,
+      "timeline": 1,
+      "related": 0,
+      "related_opportunities": 5,
+      "number_ok": true,
+      "timeline_first": "created",
+      "triggered_at_values": [
+        "2026-10-24T20:37:44+08:00"
+      ],
+      "created_at": "2026-10-24T20:37:44+08:00"
+    }
+  ]
+}

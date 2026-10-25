@@ -1,0 +1,11 @@
+﻿key,actual_id,candidate,expected,actual_level,candidate_level,expected_level,actual_owner,candidate_owner,expected_owner,actual_amount_wan,candidate_amount_yuan,expected_amount_yuan,match,detail,actual_evidence_count
+churn|opportunity|OPP-2026-0001,R-20261024-008,True,True,red,red,red,u_sm,u_sm,u_sm,320.0,3200000.0,3200000.0,True,last_code=2026-09-20 days=34; last_source=2026-09-20 days=34,3
+coverage|org|E120,R-20261024-007,True,True,orange,orange,orange,u_ea2,u_ea2,u_ea2,0.0,0,0.0,True,pipeline=2500000 remaining=1300000 coverage=1.9231,3
+decline|org|E130,R-20261024-004,True,True,red,red,red,u_ea3,u_ea3,u_ea3,30.0,300000.0,300000.0,True,2026-10-21:800000->2026-10-22:500000->2026-10-23:300000; drops -37.50%/-40.00%,3
+leads|org|E140,R-20261024-005,True,True,orange,orange,orange,u_ea4,u_ea4,u_ea4,0.0,0,0.0,True,cur=15/30 vol=-50.0; rate=30.0/30.0 convdrop=0.0,3
+leads|org|N300,R-20261024-006,True,True,yellow,yellow,yellow,u_north,u_north,u_north,0.0,0,0.0,True,cur=33/30 vol=10.000000000000014; rate=20.0/27.77777777777778 convdrop=-28.000000000000004,3
+payment|order|SO-2026-0054,R-20261024-009,True,True,red,red,red,u_south1,u_south1,u_south1,80.0,800000.0,800000.0,True,cancelled order 2026-10-22,3
+payment|receivable|AR-2026-0061,R-20261024-010,True,True,red,red,red,u_south2,u_south2,u_south2,120.0,1200000.0,1200000.0,True,due=2026-09-10 overdue=44 outstanding=1200000,3
+target_gap|org|E130,R-20261024-001,True,True,yellow,yellow,yellow,u_ea3,u_ea3,u_ea3,150.0,1500000.0,1500000.0,True,gap=4.6921pp completion=72.7273%,3
+target_gap|org|E140,R-20261024-002,True,True,red,red,red,u_ea4,u_ea4,u_ea4,200.0,2000000.0,2000000.0,True,gap=17.4194pp completion=60.0000%,3
+target_gap|org|W400,R-20261024-003,True,True,red,red,red,u_west,u_west,u_west,500.0,5000000.0,5000000.0,True,gap=27.4194pp completion=50.0000%,3

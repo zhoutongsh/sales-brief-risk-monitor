@@ -1,0 +1,336 @@
+{
+  "base": "http://127.0.0.1:8030",
+  "db": "temp p201 copy, not data/mvp.db",
+  "checks": [
+    {
+      "id": "REG-01",
+      "name": "未登录访问受保护接口",
+      "expected": "20/20 返回 401",
+      "actual": "20/20；其他=[]",
+      "pass": true,
+      "detail": "[{\"method\": \"GET\", \"path\": \"/api/me\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/brief/daily\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/brief/weekly?week=this\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/metrics\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/metrics/new_leads/drill\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/risks\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/risks/R-20261024-001\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/rules\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/quality\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/notifications\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/audit\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/export/brief.xlsx\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/export/risks.xlsx\", \"status\": 401}, {\"method\": \"GET\", \"path\": \"/api/print/brief\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/admin/batch/run\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/claim\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/transfer\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/close\", \"status\": 401}, {\"method\": \"POST\", \"path\": \"/api/risks/R-20261024-001/escalate\", \"status\": 401}, {\"method\": \"PATCH\", \"path\": \"/api/rules/target_gap\", \"status\": 401}]"
+    },
+    {
+      "id": "REG-02",
+      "name": "移动端/H5 路由不存在",
+      "expected": "全部 404",
+      "actual": "[{\"path\": \"/m\", \"status\": 404}, {\"path\": \"/m/\", \"status\": 404}, {\"path\": \"/mobile\", \"status\": 404}, {\"path\": \"/mobile/\", \"status\": 404}, {\"path\": \"/h5\", \"status\": 404}, {\"path\": \"/h5/\", \"status\": 404}]",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-03",
+      "name": "健康检查声明不支持移动端",
+      "expected": "mobile_supported=false",
+      "actual": "{\"ok\": true, \"demo\": true, \"mobile_supported\": false}",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-04-u_gm",
+      "name": "u_gm 今日日报首屏数据完整",
+      "expected": "200；3 结论、6 指标、风险 Top≤3（按可见范围）",
+      "actual": "200；3/6/3",
+      "pass": true,
+      "detail": "published_at=2026-10-24T08:30:00+08:00；可见风险较少时 Top 数量可少于 3"
+    },
+    {
+      "id": "REG-05-u_gm-this",
+      "name": "u_gm 本周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-05-u_gm-last",
+      "name": "u_gm 上周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-04-u_sd",
+      "name": "u_sd 今日日报首屏数据完整",
+      "expected": "200；3 结论、6 指标、风险 Top≤3（按可见范围）",
+      "actual": "200；3/6/3",
+      "pass": true,
+      "detail": "published_at=2026-10-24T08:30:00+08:00；可见风险较少时 Top 数量可少于 3"
+    },
+    {
+      "id": "REG-05-u_sd-this",
+      "name": "u_sd 本周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-05-u_sd-last",
+      "name": "u_sd 上周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-04-u_bu",
+      "name": "u_bu 今日日报首屏数据完整",
+      "expected": "200；3 结论、6 指标、风险 Top≤3（按可见范围）",
+      "actual": "200；3/6/3",
+      "pass": true,
+      "detail": "published_at=2026-10-24T08:30:00+08:00；可见风险较少时 Top 数量可少于 3"
+    },
+    {
+      "id": "REG-05-u_bu-this",
+      "name": "u_bu 本周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-05-u_bu-last",
+      "name": "u_bu 上周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-04-u_sm",
+      "name": "u_sm 今日日报首屏数据完整",
+      "expected": "200；3 结论、6 指标、风险 Top≤3（按可见范围）",
+      "actual": "200；3/6/1",
+      "pass": true,
+      "detail": "published_at=2026-10-24T08:30:00+08:00；可见风险较少时 Top 数量可少于 3"
+    },
+    {
+      "id": "REG-05-u_sm-this",
+      "name": "u_sm 本周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-05-u_sm-last",
+      "name": "u_sm 上周周报结构",
+      "expected": "200；6 指标、3 结论、对比、排名、风险闭环",
+      "actual": "200；6/3/True/True/True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-06-u_gm",
+      "name": "u_gm 风险行级范围",
+      "expected": "总数 10",
+      "actual": "总数 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-06-u_sd",
+      "name": "u_sd 风险行级范围",
+      "expected": "总数 10",
+      "actual": "总数 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-06-u_bu",
+      "name": "u_bu 风险行级范围",
+      "expected": "总数 6",
+      "actual": "总数 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-06-u_sm",
+      "name": "u_sm 风险行级范围",
+      "expected": "总数 1",
+      "actual": "总数 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-07",
+      "name": "跨组织详情/认领越权被拒绝",
+      "expected": "BU 越权详情/认领=403；SM 越权详情=403",
+      "actual": "BU [403, 403]/[403, 403]；SM [403, 403, 403]",
+      "pass": true,
+      "detail": "BU跨范围=['R-20261024-003', 'R-20261024-006'] SM跨范围=['R-20261024-001', 'R-20261024-002', 'R-20261024-003']"
+    },
+    {
+      "id": "REG-07B",
+      "name": "风险详情证据链完整",
+      "expected": "200；证据含当前值/阈值/基线/来源/触发时间；有事件时间线",
+      "actual": "200；证据 3 条；字段齐全=True；事件 1 条",
+      "pass": true,
+      "detail": "evidence_count=3"
+    },
+    {
+      "id": "REG-08",
+      "name": "接口 JSON 无完整手机号/邮箱",
+      "expected": "0 个完整手机号、0 个完整邮箱",
+      "actual": "0 个手机号、0 个邮箱",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-09",
+      "name": "风险责任人手机/邮箱 100% 脱敏",
+      "expected": "全部符合 138****1001 / zh***@corp.com 格式",
+      "actual": "扫描 10 条，异常 0 条",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "REG-10",
+      "name": "角色功能越权拒绝",
+      "expected": "GM 审计 200；其他审计/改规则=403；SM 转派/升级=403；SD 跑批=403",
+      "actual": "审计={'u_gm': 200, 'u_sd': 403, 'u_bu': 403, 'u_sm': 403}；改规则={'u_sd': 403, 'u_bu': 403, 'u_sm': 403}；SM转派=403 升级=403；SD跑批=403",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-11",
+      "name": "四角色日报/风险 Excel 导出",
+      "expected": "全部 200、真实 xlsx、带演示水印",
+      "actual": "{\"u_gm\": {\"brief\": [200, 7278, true], \"risks\": [200, 6834, true], \"watermark\": \"demo-data-do-not-distribute\"}, \"u_sd\": {\"brief\": [200, 7279, true], \"risks\": [200, 6834, true], \"watermark\": \"demo-data-do-not-distribute\"}, \"u_bu\": {\"brief\": [200, 7268, true], \"risks\": [200, 6455, true], \"watermark\": \"demo-data-do-not-distribute\"}, \"u_sm\": {\"brief\": [200, 7162, true], \"risks\": [200, 5965, true], \"watermark\": \"demo-data-do-not-distribute\"}}",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-12",
+      "name": "导出文件水印与数据说明",
+      "expected": "含“演示数据·禁止外传”和三条结论",
+      "actual": "水印=True；三条结论=True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-13",
+      "name": "打印页水印与结构",
+      "expected": "含水印、三条结论、六项关键指标、风险 Top3",
+      "actual": "水印=True；3结论=True；6指标=True；Top3=True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-14",
+      "name": "GM 可修改规则并写审计",
+      "expected": "200；参数保持不变",
+      "actual": "200；{'yellow_gap_pp': 3, 'orange_gap_pp': 8, 'red_gap_pp': 15}",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-15",
+      "name": "风险认领（SM 本人）",
+      "expected": "200；状态 processing；事件 claimed；审计 risk.claim",
+      "actual": "200；status=processing；claimed_by=u_sm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-16",
+      "name": "风险关闭并留审计轨迹",
+      "expected": "200；状态 closed；关闭原因/动作/结果齐全；事件 closed",
+      "actual": "200；status=closed；close={'result_status': 'closed', 'result_status_label': '已关闭', 'reason': '客户已恢复沟通并确认预算', 'action': '安排高层回访并更新商机阶段', 'result': '客户同意下周签约，风险解除'}",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-17",
+      "name": "风险转派并保留原负责人可见",
+      "expected": "200；责任人 u_ea4；状态 pending；原负责人成为关注人；事件 transferred",
+      "actual": "200；owner=u_ea4；status=pending；watchers=['u_west']",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-18",
+      "name": "风险手动两级升级并进入总经理池",
+      "expected": "一级→二级；二级 escalated_to 为 GM；事件 2 条",
+      "actual": "200/200；level=2；to=u_gm；gm_pool=True",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "REG-19",
+      "name": "查看/导出/认领/转派/关闭/升级/改规则均写审计",
+      "expected": "8 类动作全部存在",
+      "actual": "缺失=[]；总数=62",
+      "pass": true,
+      "detail": "出现次数={'risk.view': 1, 'brief.view': 14, 'export.xlsx': 9, 'risk.claim': 1, 'risk.close': 1, 'risk.transfer': 1, 'risk.escalate': 2, 'rule.update': 1}"
+    }
+  ],
+  "passed": 33,
+  "total": 33,
+  "exports": {
+    "u_gm": {
+      "brief": [
+        200,
+        7278,
+        true
+      ],
+      "risks": [
+        200,
+        6834,
+        true
+      ],
+      "watermark": "demo-data-do-not-distribute"
+    },
+    "u_sd": {
+      "brief": [
+        200,
+        7279,
+        true
+      ],
+      "risks": [
+        200,
+        6834,
+        true
+      ],
+      "watermark": "demo-data-do-not-distribute"
+    },
+    "u_bu": {
+      "brief": [
+        200,
+        7268,
+        true
+      ],
+      "risks": [
+        200,
+        6455,
+        true
+      ],
+      "watermark": "demo-data-do-not-distribute"
+    },
+    "u_sm": {
+      "brief": [
+        200,
+        7162,
+        true
+      ],
+      "risks": [
+        200,
+        5965,
+        true
+      ],
+      "watermark": "demo-data-do-not-distribute"
+    }
+  },
+  "audit_actions": {
+    "risk.view": 1,
+    "brief.view": 14,
+    "export.xlsx": 9,
+    "risk.claim": 1,
+    "risk.close": 1,
+    "risk.transfer": 1,
+    "risk.escalate": 2,
+    "rule.update": 1
+  }
+}

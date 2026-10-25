@@ -1,0 +1,27 @@
+# Python 运行环境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 运行时数据（可重新生成）
+MVP_V0.1/data/mvp.db
+MVP_V0.1/data/mvp.db-*
+MVP_V0.1/data/*.log
+MVP_V0.1/data/selftest_server.log
+
+# 打包产物
+MVP_V0.1/build/
+MVP_V0.1/dist/
+*.exe
+
+# 本地临时文件与草稿
+~$*
+*.tmp
+_*.txt
+
+# 密钥与本机配置（严禁上传）
+update_claude_api_key.py
+.env
+.env.*

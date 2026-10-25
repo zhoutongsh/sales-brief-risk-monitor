@@ -1,0 +1,1134 @@
+{
+  "base": "http://127.0.0.1:8030/",
+  "viewports": [
+    {
+      "vw": 1280,
+      "vh": 800,
+      "docScrollWidth": 1272,
+      "bodyScrollWidth": 1272,
+      "horizontalScroll": false,
+      "scrollX": 0,
+      "scrollY": 0,
+      "counts": {
+        "conclusions": 3,
+        "kpis": 6,
+        "risks": 3
+      },
+      "conclusions": [
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 264,
+          "right": 583,
+          "width": 319,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 595,
+          "right": 913,
+          "width": 319,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 925,
+          "right": 1244,
+          "width": 319,
+          "height": 102,
+          "fully": true
+        }
+      ],
+      "kpis": [
+        {
+          "top": 304,
+          "bottom": 408,
+          "left": 264,
+          "right": 418,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 408,
+          "left": 429,
+          "right": 583,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 408,
+          "left": 594,
+          "right": 749,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 408,
+          "left": 760,
+          "right": 914,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 408,
+          "left": 925,
+          "right": 1079,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 408,
+          "left": 1090,
+          "right": 1244,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        }
+      ],
+      "kpiValues": [
+        {
+          "top": 339,
+          "bottom": 366,
+          "left": 279,
+          "right": 403,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 366,
+          "left": 444,
+          "right": 568,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 366,
+          "left": 609,
+          "right": 734,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 366,
+          "left": 775,
+          "right": 899,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 366,
+          "left": 940,
+          "right": 1064,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 366,
+          "left": 1105,
+          "right": 1229,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        }
+      ],
+      "kpiLabels": [
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 279,
+          "right": 403,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 444,
+          "right": 568,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 609,
+          "right": 734,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 775,
+          "right": 899,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 940,
+          "right": 1064,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 1105,
+          "right": 1229,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        }
+      ],
+      "kpiSparks": [],
+      "risks": [
+        {
+          "top": 481,
+          "bottom": 555,
+          "left": 908,
+          "right": 1225,
+          "width": 318,
+          "height": 74,
+          "fully": true
+        },
+        {
+          "top": 555,
+          "bottom": 638,
+          "left": 908,
+          "right": 1225,
+          "width": 318,
+          "height": 84,
+          "fully": true
+        },
+        {
+          "top": 638,
+          "bottom": 722,
+          "left": 908,
+          "right": 1225,
+          "width": 318,
+          "height": 84,
+          "fully": true
+        }
+      ],
+      "kpiGrid": {
+        "top": 304,
+        "bottom": 408,
+        "left": 264,
+        "right": 1244,
+        "width": 980,
+        "height": 104,
+        "fully": true
+      },
+      "riskMini": {
+        "top": 481,
+        "bottom": 722,
+        "left": 908,
+        "right": 1225,
+        "width": 318,
+        "height": 241,
+        "fully": true
+      },
+      "allKpiCardsFully": true,
+      "allKpiValuesFully": true,
+      "allKpiLabelsFully": true,
+      "allRiskItemsFully": true,
+      "allConclusionsFully": true,
+      "hOver": [
+        {
+          "tag": "ASIDE",
+          "cls": "drawer",
+          "rect": {
+            "top": 0,
+            "bottom": 800,
+            "left": 1284,
+            "right": 1904,
+            "width": 620,
+            "height": 800,
+            "fully": true
+          }
+        }
+      ],
+      "width": 1280,
+      "height": 800,
+      "screenshot": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\recheck_1280x800.png"
+    },
+    {
+      "vw": 1280,
+      "vh": 720,
+      "docScrollWidth": 1272,
+      "bodyScrollWidth": 1272,
+      "horizontalScroll": false,
+      "scrollX": 0,
+      "scrollY": 0,
+      "counts": {
+        "conclusions": 3,
+        "kpis": 6,
+        "risks": 3
+      },
+      "conclusions": [
+        {
+          "top": 174,
+          "bottom": 276,
+          "left": 264,
+          "right": 583,
+          "width": 319,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 174,
+          "bottom": 276,
+          "left": 595,
+          "right": 913,
+          "width": 319,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 174,
+          "bottom": 276,
+          "left": 925,
+          "right": 1244,
+          "width": 319,
+          "height": 102,
+          "fully": true
+        }
+      ],
+      "kpis": [
+        {
+          "top": 286,
+          "bottom": 390,
+          "left": 264,
+          "right": 418,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 286,
+          "bottom": 390,
+          "left": 429,
+          "right": 583,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 286,
+          "bottom": 390,
+          "left": 594,
+          "right": 749,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 286,
+          "bottom": 390,
+          "left": 760,
+          "right": 914,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 286,
+          "bottom": 390,
+          "left": 925,
+          "right": 1079,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        },
+        {
+          "top": 286,
+          "bottom": 390,
+          "left": 1090,
+          "right": 1244,
+          "width": 154,
+          "height": 104,
+          "fully": true
+        }
+      ],
+      "kpiValues": [
+        {
+          "top": 321,
+          "bottom": 348,
+          "left": 279,
+          "right": 403,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 321,
+          "bottom": 348,
+          "left": 444,
+          "right": 568,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 321,
+          "bottom": 348,
+          "left": 609,
+          "right": 734,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 321,
+          "bottom": 348,
+          "left": 775,
+          "right": 899,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 321,
+          "bottom": 348,
+          "left": 940,
+          "right": 1064,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        },
+        {
+          "top": 321,
+          "bottom": 348,
+          "left": 1105,
+          "right": 1229,
+          "width": 124,
+          "height": 27,
+          "fully": true
+        }
+      ],
+      "kpiLabels": [
+        {
+          "top": 300,
+          "bottom": 314,
+          "left": 279,
+          "right": 403,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 300,
+          "bottom": 314,
+          "left": 444,
+          "right": 568,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 300,
+          "bottom": 314,
+          "left": 609,
+          "right": 734,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 300,
+          "bottom": 314,
+          "left": 775,
+          "right": 899,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 300,
+          "bottom": 314,
+          "left": 940,
+          "right": 1064,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 300,
+          "bottom": 314,
+          "left": 1105,
+          "right": 1229,
+          "width": 124,
+          "height": 14,
+          "fully": true
+        }
+      ],
+      "kpiSparks": [],
+      "risks": [
+        {
+          "top": 459,
+          "bottom": 531,
+          "left": 908,
+          "right": 1225,
+          "width": 318,
+          "height": 72,
+          "fully": true
+        },
+        {
+          "top": 531,
+          "bottom": 610,
+          "left": 908,
+          "right": 1225,
+          "width": 318,
+          "height": 80,
+          "fully": true
+        },
+        {
+          "top": 610,
+          "bottom": 690,
+          "left": 908,
+          "right": 1225,
+          "width": 318,
+          "height": 80,
+          "fully": true
+        }
+      ],
+      "kpiGrid": {
+        "top": 286,
+        "bottom": 390,
+        "left": 264,
+        "right": 1244,
+        "width": 980,
+        "height": 104,
+        "fully": true
+      },
+      "riskMini": {
+        "top": 459,
+        "bottom": 690,
+        "left": 908,
+        "right": 1225,
+        "width": 318,
+        "height": 231,
+        "fully": true
+      },
+      "allKpiCardsFully": true,
+      "allKpiValuesFully": true,
+      "allKpiLabelsFully": true,
+      "allRiskItemsFully": true,
+      "allConclusionsFully": true,
+      "hOver": [
+        {
+          "tag": "ASIDE",
+          "cls": "drawer",
+          "rect": {
+            "top": 0,
+            "bottom": 720,
+            "left": 1284,
+            "right": 1904,
+            "width": 620,
+            "height": 720,
+            "fully": true
+          }
+        }
+      ],
+      "width": 1280,
+      "height": 720,
+      "screenshot": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\recheck_1280x720.png"
+    },
+    {
+      "vw": 1440,
+      "vh": 900,
+      "docScrollWidth": 1432,
+      "bodyScrollWidth": 1432,
+      "horizontalScroll": false,
+      "scrollX": 0,
+      "scrollY": 0,
+      "counts": {
+        "conclusions": 3,
+        "kpis": 6,
+        "risks": 3
+      },
+      "conclusions": [
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 264,
+          "right": 636,
+          "width": 372,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 648,
+          "right": 1020,
+          "width": 372,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 1032,
+          "right": 1404,
+          "width": 372,
+          "height": 102,
+          "fully": true
+        }
+      ],
+      "kpis": [
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 264,
+          "right": 445,
+          "width": 181,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 456,
+          "right": 637,
+          "width": 181,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 648,
+          "right": 828,
+          "width": 181,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 839,
+          "right": 1020,
+          "width": 181,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 1031,
+          "right": 1212,
+          "width": 181,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 1223,
+          "right": 1404,
+          "width": 181,
+          "height": 106,
+          "fully": true
+        }
+      ],
+      "kpiValues": [
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 279,
+          "right": 430,
+          "width": 151,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 471,
+          "right": 622,
+          "width": 151,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 663,
+          "right": 813,
+          "width": 151,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 854,
+          "right": 1005,
+          "width": 151,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 1046,
+          "right": 1197,
+          "width": 151,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 1238,
+          "right": 1389,
+          "width": 151,
+          "height": 29,
+          "fully": true
+        }
+      ],
+      "kpiLabels": [
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 279,
+          "right": 430,
+          "width": 151,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 471,
+          "right": 622,
+          "width": 151,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 663,
+          "right": 813,
+          "width": 151,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 854,
+          "right": 1005,
+          "width": 151,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 1046,
+          "right": 1197,
+          "width": 151,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 1238,
+          "right": 1389,
+          "width": 151,
+          "height": 14,
+          "fully": true
+        }
+      ],
+      "kpiSparks": [],
+      "risks": [
+        {
+          "top": 483,
+          "bottom": 557,
+          "left": 1009,
+          "right": 1385,
+          "width": 376,
+          "height": 74,
+          "fully": true
+        },
+        {
+          "top": 557,
+          "bottom": 641,
+          "left": 1009,
+          "right": 1385,
+          "width": 376,
+          "height": 84,
+          "fully": true
+        },
+        {
+          "top": 641,
+          "bottom": 724,
+          "left": 1009,
+          "right": 1385,
+          "width": 376,
+          "height": 84,
+          "fully": true
+        }
+      ],
+      "kpiGrid": {
+        "top": 304,
+        "bottom": 410,
+        "left": 264,
+        "right": 1404,
+        "width": 1140,
+        "height": 106,
+        "fully": true
+      },
+      "riskMini": {
+        "top": 483,
+        "bottom": 724,
+        "left": 1009,
+        "right": 1385,
+        "width": 376,
+        "height": 241,
+        "fully": true
+      },
+      "allKpiCardsFully": true,
+      "allKpiValuesFully": true,
+      "allKpiLabelsFully": true,
+      "allRiskItemsFully": true,
+      "allConclusionsFully": true,
+      "hOver": [
+        {
+          "tag": "ASIDE",
+          "cls": "drawer",
+          "rect": {
+            "top": 0,
+            "bottom": 900,
+            "left": 1444,
+            "right": 2064,
+            "width": 620,
+            "height": 900,
+            "fully": true
+          }
+        }
+      ],
+      "width": 1440,
+      "height": 900,
+      "screenshot": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\recheck_1440x900.png"
+    },
+    {
+      "vw": 1600,
+      "vh": 900,
+      "docScrollWidth": 1592,
+      "bodyScrollWidth": 1592,
+      "horizontalScroll": false,
+      "scrollX": 0,
+      "scrollY": 0,
+      "counts": {
+        "conclusions": 3,
+        "kpis": 6,
+        "risks": 3
+      },
+      "conclusions": [
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 264,
+          "right": 689,
+          "width": 425,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 701,
+          "right": 1127,
+          "width": 425,
+          "height": 102,
+          "fully": true
+        },
+        {
+          "top": 188,
+          "bottom": 290,
+          "left": 1139,
+          "right": 1564,
+          "width": 425,
+          "height": 102,
+          "fully": true
+        }
+      ],
+      "kpis": [
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 264,
+          "right": 472,
+          "width": 208,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 483,
+          "right": 690,
+          "width": 208,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 701,
+          "right": 909,
+          "width": 208,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 920,
+          "right": 1127,
+          "width": 208,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 1138,
+          "right": 1346,
+          "width": 208,
+          "height": 106,
+          "fully": true
+        },
+        {
+          "top": 304,
+          "bottom": 410,
+          "left": 1357,
+          "right": 1564,
+          "width": 208,
+          "height": 106,
+          "fully": true
+        }
+      ],
+      "kpiValues": [
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 279,
+          "right": 457,
+          "width": 178,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 498,
+          "right": 675,
+          "width": 178,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 716,
+          "right": 894,
+          "width": 178,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 935,
+          "right": 1112,
+          "width": 178,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 1153,
+          "right": 1331,
+          "width": 178,
+          "height": 29,
+          "fully": true
+        },
+        {
+          "top": 339,
+          "bottom": 368,
+          "left": 1372,
+          "right": 1549,
+          "width": 178,
+          "height": 29,
+          "fully": true
+        }
+      ],
+      "kpiLabels": [
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 279,
+          "right": 457,
+          "width": 178,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 498,
+          "right": 675,
+          "width": 178,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 716,
+          "right": 894,
+          "width": 178,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 935,
+          "right": 1112,
+          "width": 178,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 1153,
+          "right": 1331,
+          "width": 178,
+          "height": 14,
+          "fully": true
+        },
+        {
+          "top": 318,
+          "bottom": 332,
+          "left": 1372,
+          "right": 1549,
+          "width": 178,
+          "height": 14,
+          "fully": true
+        }
+      ],
+      "kpiSparks": [],
+      "risks": [
+        {
+          "top": 483,
+          "bottom": 557,
+          "left": 1110,
+          "right": 1545,
+          "width": 435,
+          "height": 74,
+          "fully": true
+        },
+        {
+          "top": 557,
+          "bottom": 641,
+          "left": 1110,
+          "right": 1545,
+          "width": 435,
+          "height": 84,
+          "fully": true
+        },
+        {
+          "top": 641,
+          "bottom": 724,
+          "left": 1110,
+          "right": 1545,
+          "width": 435,
+          "height": 84,
+          "fully": true
+        }
+      ],
+      "kpiGrid": {
+        "top": 304,
+        "bottom": 410,
+        "left": 264,
+        "right": 1564,
+        "width": 1300,
+        "height": 106,
+        "fully": true
+      },
+      "riskMini": {
+        "top": 483,
+        "bottom": 724,
+        "left": 1110,
+        "right": 1545,
+        "width": 435,
+        "height": 241,
+        "fully": true
+      },
+      "allKpiCardsFully": true,
+      "allKpiValuesFully": true,
+      "allKpiLabelsFully": true,
+      "allRiskItemsFully": true,
+      "allConclusionsFully": true,
+      "hOver": [
+        {
+          "tag": "ASIDE",
+          "cls": "drawer",
+          "rect": {
+            "top": 0,
+            "bottom": 900,
+            "left": 1604,
+            "right": 2224,
+            "width": 620,
+            "height": 900,
+            "fully": true
+          }
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "screenshot": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\recheck_1600x900.png"
+    }
+  ],
+  "full_1280x720": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\mvp_accept2\\recheck_1280x720_full.png"
+}

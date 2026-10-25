@@ -1,0 +1,1056 @@
+{
+  "summary": {
+    "run_status": [
+      200,
+      200,
+      200
+    ],
+    "batch_status": [
+      "success",
+      "success",
+      "success"
+    ],
+    "risk_counts": [
+      13,
+      13,
+      13
+    ],
+    "evidence_counts": [
+      66,
+      66,
+      66
+    ],
+    "metric_counts": [
+      187,
+      187,
+      187
+    ],
+    "notification_counts": [
+      38,
+      38,
+      38
+    ],
+    "brief_counts": [
+      4,
+      4,
+      4
+    ],
+    "duplicate_risk_keys": [],
+    "merged_risk_count": 9,
+    "merged_evidence_counts": {
+      "R-20261024-001": 6,
+      "R-20261024-002": 6,
+      "R-20261024-003": 6,
+      "R-20261024-004": 6,
+      "R-20261024-005": 6,
+      "R-20261024-007": 6,
+      "R-20261024-008": 6,
+      "R-20261024-009": 6,
+      "R-20261024-010": 6
+    },
+    "run2_equals_run3": false,
+    "all_three_equal": true,
+    "notification_dedupe_unique": true,
+    "risk_stats_run1": {
+      "created": 3,
+      "merged": 9,
+      "skipped": 0,
+      "triggered": 12,
+      "by_rule": {
+        "target_gap": {
+          "created": 3,
+          "merged": 3,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261025-001",
+        "R-20261025-002",
+        "R-20261025-003"
+      ]
+    },
+    "risk_stats_run2": {
+      "created": 0,
+      "merged": 0,
+      "skipped": 12,
+      "triggered": 12,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 6
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "leads": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "payment": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 2
+        }
+      },
+      "risk_ids": []
+    },
+    "risk_stats_run3": {
+      "created": 0,
+      "merged": 0,
+      "skipped": 12,
+      "triggered": 12,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 6
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "leads": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 1
+        },
+        "payment": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 2
+        }
+      },
+      "risk_ids": []
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "status_code": 200,
+      "risk_count": 13,
+      "evidence_count": 66,
+      "metric_count": 187,
+      "notification_count": 38,
+      "brief_count": 4,
+      "body": {
+        "batch_id": "B-20261025-212226-1007",
+        "as_of": "2026-10-25",
+        "status": "success",
+        "started_at": "2026-10-24T21:22:26+08:00",
+        "finished_at": "2026-10-24T21:22:26+08:00",
+        "duration_seconds": 0.08,
+        "steps": [
+          {
+            "step": "extract",
+            "label": "抽取与校验",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 37,
+            "stats": {
+              "row_counts": {
+                "orgs": 11,
+                "users": 30,
+                "targets": 36,
+                "leads": 1000,
+                "opportunities": 190,
+                "contracts": 176,
+                "orders": 60,
+                "receivables": 80,
+                "ad_spend": 150,
+                "followups": 350
+              },
+              "ingested_at": "2026-10-24T21:22:26+08:00",
+              "master_counts": {
+                "orgs": 11,
+                "users": 30,
+                "targets": 36
+              },
+              "transaction_counts": {
+                "leads": 1000,
+                "opportunities": 190,
+                "contracts": 176,
+                "orders": 60,
+                "receivables": 80,
+                "ad_spend": 150,
+                "followups": 350
+              }
+            }
+          },
+          {
+            "step": "metrics",
+            "label": "指标快照",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "snapshots": 187
+            }
+          },
+          {
+            "step": "quality",
+            "label": "数据质量",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "status": "pass",
+              "score": 100.0,
+              "warnings": 0,
+              "affected_metrics": 0
+            }
+          },
+          {
+            "step": "risks",
+            "label": "风险识别",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 4,
+            "stats": {
+              "created": 3,
+              "merged": 9,
+              "skipped": 0,
+              "triggered": 12,
+              "by_rule": {
+                "target_gap": {
+                  "created": 3,
+                  "merged": 3,
+                  "skipped": 0
+                },
+                "decline": {
+                  "created": 0,
+                  "merged": 1,
+                  "skipped": 0
+                },
+                "leads": {
+                  "created": 0,
+                  "merged": 1,
+                  "skipped": 0
+                },
+                "coverage": {
+                  "created": 0,
+                  "merged": 1,
+                  "skipped": 0
+                },
+                "churn": {
+                  "created": 0,
+                  "merged": 1,
+                  "skipped": 0
+                },
+                "payment": {
+                  "created": 0,
+                  "merged": 2,
+                  "skipped": 0
+                }
+              },
+              "risk_ids": [
+                "R-20261025-001",
+                "R-20261025-002",
+                "R-20261025-003"
+              ]
+            }
+          },
+          {
+            "step": "daily",
+            "label": "生成日报",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 10,
+            "stats": {
+              "briefs": 4
+            }
+          },
+          {
+            "step": "weekly",
+            "label": "生成周报",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 10,
+            "stats": {
+              "reports": 8
+            }
+          },
+          {
+            "step": "publish",
+            "label": "发布",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 1,
+            "stats": {
+              "published_at": "2026-10-25T08:30:00+08:00",
+              "daily_briefs": 4,
+              "weekly_reports": 8
+            }
+          },
+          {
+            "step": "notify",
+            "label": "站内通知",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 0,
+            "stats": {
+              "risk_notifications": 3,
+              "brief_notifications": 4,
+              "total": 7
+            }
+          },
+          {
+            "step": "escalation",
+            "label": "超时升级检查",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 0,
+            "stats": {
+              "escalated": 0
+            }
+          }
+        ],
+        "stats": {
+          "as_of": "2026-10-25",
+          "batch_id": "B-20261025-212226-1007",
+          "ingest": {
+            "row_counts": {
+              "orgs": 11,
+              "users": 30,
+              "targets": 36,
+              "leads": 1000,
+              "opportunities": 190,
+              "contracts": 176,
+              "orders": 60,
+              "receivables": 80,
+              "ad_spend": 150,
+              "followups": 350
+            },
+            "ingested_at": "2026-10-24T21:22:26+08:00",
+            "master_counts": {
+              "orgs": 11,
+              "users": 30,
+              "targets": 36
+            },
+            "transaction_counts": {
+              "leads": 1000,
+              "opportunities": 190,
+              "contracts": 176,
+              "orders": 60,
+              "receivables": 80,
+              "ad_spend": 150,
+              "followups": 350
+            }
+          },
+          "metrics": {
+            "snapshots": 187
+          },
+          "quality": {
+            "status": "pass",
+            "score": 100.0,
+            "warnings": 0,
+            "affected_metrics": 0
+          },
+          "risks": {
+            "created": 3,
+            "merged": 9,
+            "skipped": 0,
+            "triggered": 12,
+            "by_rule": {
+              "target_gap": {
+                "created": 3,
+                "merged": 3,
+                "skipped": 0
+              },
+              "decline": {
+                "created": 0,
+                "merged": 1,
+                "skipped": 0
+              },
+              "leads": {
+                "created": 0,
+                "merged": 1,
+                "skipped": 0
+              },
+              "coverage": {
+                "created": 0,
+                "merged": 1,
+                "skipped": 0
+              },
+              "churn": {
+                "created": 0,
+                "merged": 1,
+                "skipped": 0
+              },
+              "payment": {
+                "created": 0,
+                "merged": 2,
+                "skipped": 0
+              }
+            },
+            "risk_ids": [
+              "R-20261025-001",
+              "R-20261025-002",
+              "R-20261025-003"
+            ]
+          },
+          "daily": {
+            "briefs": 4
+          },
+          "weekly": {
+            "reports": 8
+          },
+          "publish": {
+            "published_at": "2026-10-25T08:30:00+08:00",
+            "daily_briefs": 4,
+            "weekly_reports": 8
+          },
+          "notifications": {
+            "risk_notifications": 3,
+            "brief_notifications": 4,
+            "total": 7
+          },
+          "escalation": {
+            "escalated": 0
+          },
+          "duration_seconds": 0.08,
+          "finished_at": "2026-10-24T21:22:26+08:00"
+        },
+        "error": null
+      }
+    },
+    {
+      "run": 2,
+      "status_code": 200,
+      "risk_count": 13,
+      "evidence_count": 66,
+      "metric_count": 187,
+      "notification_count": 38,
+      "brief_count": 4,
+      "body": {
+        "batch_id": "B-20261025-212226-36B9",
+        "as_of": "2026-10-25",
+        "status": "success",
+        "started_at": "2026-10-24T21:22:26+08:00",
+        "finished_at": "2026-10-24T21:22:26+08:00",
+        "duration_seconds": 0.05,
+        "steps": [
+          {
+            "step": "extract",
+            "label": "抽取与校验",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 17,
+            "stats": {
+              "row_counts": {
+                "orgs": 11,
+                "users": 30,
+                "targets": 36,
+                "leads": 1000,
+                "opportunities": 190,
+                "contracts": 176,
+                "orders": 60,
+                "receivables": 80,
+                "ad_spend": 150,
+                "followups": 350
+              },
+              "ingested_at": "2026-10-24T21:22:26+08:00",
+              "master_counts": {
+                "orgs": 11,
+                "users": 30,
+                "targets": 36
+              },
+              "transaction_counts": {
+                "leads": 1000,
+                "opportunities": 190,
+                "contracts": 176,
+                "orders": 60,
+                "receivables": 80,
+                "ad_spend": 150,
+                "followups": 350
+              }
+            }
+          },
+          {
+            "step": "metrics",
+            "label": "指标快照",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "snapshots": 187
+            }
+          },
+          {
+            "step": "quality",
+            "label": "数据质量",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "status": "pass",
+              "score": 100.0,
+              "warnings": 0,
+              "affected_metrics": 0
+            }
+          },
+          {
+            "step": "risks",
+            "label": "风险识别",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "created": 0,
+              "merged": 0,
+              "skipped": 12,
+              "triggered": 12,
+              "by_rule": {
+                "target_gap": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 6
+                },
+                "decline": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "leads": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "coverage": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "churn": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "payment": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 2
+                }
+              },
+              "risk_ids": []
+            }
+          },
+          {
+            "step": "daily",
+            "label": "生成日报",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 11,
+            "stats": {
+              "briefs": 4
+            }
+          },
+          {
+            "step": "weekly",
+            "label": "生成周报",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 10,
+            "stats": {
+              "reports": 8
+            }
+          },
+          {
+            "step": "publish",
+            "label": "发布",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 2,
+            "stats": {
+              "published_at": "2026-10-25T08:30:00+08:00",
+              "daily_briefs": 4,
+              "weekly_reports": 8
+            }
+          },
+          {
+            "step": "notify",
+            "label": "站内通知",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 0,
+            "stats": {
+              "risk_notifications": 0,
+              "brief_notifications": 0,
+              "total": 0
+            }
+          },
+          {
+            "step": "escalation",
+            "label": "超时升级检查",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 0,
+            "stats": {
+              "escalated": 0
+            }
+          }
+        ],
+        "stats": {
+          "as_of": "2026-10-25",
+          "batch_id": "B-20261025-212226-36B9",
+          "ingest": {
+            "row_counts": {
+              "orgs": 11,
+              "users": 30,
+              "targets": 36,
+              "leads": 1000,
+              "opportunities": 190,
+              "contracts": 176,
+              "orders": 60,
+              "receivables": 80,
+              "ad_spend": 150,
+              "followups": 350
+            },
+            "ingested_at": "2026-10-24T21:22:26+08:00",
+            "master_counts": {
+              "orgs": 11,
+              "users": 30,
+              "targets": 36
+            },
+            "transaction_counts": {
+              "leads": 1000,
+              "opportunities": 190,
+              "contracts": 176,
+              "orders": 60,
+              "receivables": 80,
+              "ad_spend": 150,
+              "followups": 350
+            }
+          },
+          "metrics": {
+            "snapshots": 187
+          },
+          "quality": {
+            "status": "pass",
+            "score": 100.0,
+            "warnings": 0,
+            "affected_metrics": 0
+          },
+          "risks": {
+            "created": 0,
+            "merged": 0,
+            "skipped": 12,
+            "triggered": 12,
+            "by_rule": {
+              "target_gap": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 6
+              },
+              "decline": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "leads": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "coverage": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "churn": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "payment": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 2
+              }
+            },
+            "risk_ids": []
+          },
+          "daily": {
+            "briefs": 4
+          },
+          "weekly": {
+            "reports": 8
+          },
+          "publish": {
+            "published_at": "2026-10-25T08:30:00+08:00",
+            "daily_briefs": 4,
+            "weekly_reports": 8
+          },
+          "notifications": {
+            "risk_notifications": 0,
+            "brief_notifications": 0,
+            "total": 0
+          },
+          "escalation": {
+            "escalated": 0
+          },
+          "duration_seconds": 0.05,
+          "finished_at": "2026-10-24T21:22:26+08:00"
+        },
+        "error": null
+      }
+    },
+    {
+      "run": 3,
+      "status_code": 200,
+      "risk_count": 13,
+      "evidence_count": 66,
+      "metric_count": 187,
+      "notification_count": 38,
+      "brief_count": 4,
+      "body": {
+        "batch_id": "B-20261025-212226-03CA",
+        "as_of": "2026-10-25",
+        "status": "success",
+        "started_at": "2026-10-24T21:22:26+08:00",
+        "finished_at": "2026-10-24T21:22:26+08:00",
+        "duration_seconds": 0.05,
+        "steps": [
+          {
+            "step": "extract",
+            "label": "抽取与校验",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 17,
+            "stats": {
+              "row_counts": {
+                "orgs": 11,
+                "users": 30,
+                "targets": 36,
+                "leads": 1000,
+                "opportunities": 190,
+                "contracts": 176,
+                "orders": 60,
+                "receivables": 80,
+                "ad_spend": 150,
+                "followups": 350
+              },
+              "ingested_at": "2026-10-24T21:22:26+08:00",
+              "master_counts": {
+                "orgs": 11,
+                "users": 30,
+                "targets": 36
+              },
+              "transaction_counts": {
+                "leads": 1000,
+                "opportunities": 190,
+                "contracts": 176,
+                "orders": 60,
+                "receivables": 80,
+                "ad_spend": 150,
+                "followups": 350
+              }
+            }
+          },
+          {
+            "step": "metrics",
+            "label": "指标快照",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "snapshots": 187
+            }
+          },
+          {
+            "step": "quality",
+            "label": "数据质量",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "status": "pass",
+              "score": 100.0,
+              "warnings": 0,
+              "affected_metrics": 0
+            }
+          },
+          {
+            "step": "risks",
+            "label": "风险识别",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 3,
+            "stats": {
+              "created": 0,
+              "merged": 0,
+              "skipped": 12,
+              "triggered": 12,
+              "by_rule": {
+                "target_gap": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 6
+                },
+                "decline": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "leads": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "coverage": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "churn": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 1
+                },
+                "payment": {
+                  "created": 0,
+                  "merged": 0,
+                  "skipped": 2
+                }
+              },
+              "risk_ids": []
+            }
+          },
+          {
+            "step": "daily",
+            "label": "生成日报",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 11,
+            "stats": {
+              "briefs": 4
+            }
+          },
+          {
+            "step": "weekly",
+            "label": "生成周报",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 11,
+            "stats": {
+              "reports": 8
+            }
+          },
+          {
+            "step": "publish",
+            "label": "发布",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 2,
+            "stats": {
+              "published_at": "2026-10-25T08:30:00+08:00",
+              "daily_briefs": 4,
+              "weekly_reports": 8
+            }
+          },
+          {
+            "step": "notify",
+            "label": "站内通知",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 0,
+            "stats": {
+              "risk_notifications": 0,
+              "brief_notifications": 0,
+              "total": 0
+            }
+          },
+          {
+            "step": "escalation",
+            "label": "超时升级检查",
+            "status": "success",
+            "started_at": "2026-10-24T21:22:26+08:00",
+            "finished_at": "2026-10-24T21:22:26+08:00",
+            "duration_ms": 0,
+            "stats": {
+              "escalated": 0
+            }
+          }
+        ],
+        "stats": {
+          "as_of": "2026-10-25",
+          "batch_id": "B-20261025-212226-03CA",
+          "ingest": {
+            "row_counts": {
+              "orgs": 11,
+              "users": 30,
+              "targets": 36,
+              "leads": 1000,
+              "opportunities": 190,
+              "contracts": 176,
+              "orders": 60,
+              "receivables": 80,
+              "ad_spend": 150,
+              "followups": 350
+            },
+            "ingested_at": "2026-10-24T21:22:26+08:00",
+            "master_counts": {
+              "orgs": 11,
+              "users": 30,
+              "targets": 36
+            },
+            "transaction_counts": {
+              "leads": 1000,
+              "opportunities": 190,
+              "contracts": 176,
+              "orders": 60,
+              "receivables": 80,
+              "ad_spend": 150,
+              "followups": 350
+            }
+          },
+          "metrics": {
+            "snapshots": 187
+          },
+          "quality": {
+            "status": "pass",
+            "score": 100.0,
+            "warnings": 0,
+            "affected_metrics": 0
+          },
+          "risks": {
+            "created": 0,
+            "merged": 0,
+            "skipped": 12,
+            "triggered": 12,
+            "by_rule": {
+              "target_gap": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 6
+              },
+              "decline": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "leads": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "coverage": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "churn": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 1
+              },
+              "payment": {
+                "created": 0,
+                "merged": 0,
+                "skipped": 2
+              }
+            },
+            "risk_ids": []
+          },
+          "daily": {
+            "briefs": 4
+          },
+          "weekly": {
+            "reports": 8
+          },
+          "publish": {
+            "published_at": "2026-10-25T08:30:00+08:00",
+            "daily_briefs": 4,
+            "weekly_reports": 8
+          },
+          "notifications": {
+            "risk_notifications": 0,
+            "brief_notifications": 0,
+            "total": 0
+          },
+          "escalation": {
+            "escalated": 0
+          },
+          "duration_seconds": 0.05,
+          "finished_at": "2026-10-24T21:22:26+08:00"
+        },
+        "error": null
+      }
+    }
+  ]
+}

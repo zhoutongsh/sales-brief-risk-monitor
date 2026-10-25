@@ -1,0 +1,1813 @@
+=== 2026-10-12 ===
+{
+  "status": "success",
+  "batch_id": "B-20261012-211506-3010",
+  "as_of": "2026-10-12",
+  "started_at": "2026-10-24T21:15:06+08:00",
+  "finished_at": "2026-10-24T21:15:06+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 22,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 6,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 9,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 9,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-12",
+    "batch_id": "B-20261012-211506-3010",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:06+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 19,
+      "merged": 0,
+      "skipped": 0,
+      "triggered": 19,
+      "by_rule": {
+        "target_gap": {
+          "created": 7,
+          "merged": 0,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 11,
+          "merged": 0,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 1,
+          "merged": 0,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261012-001",
+        "R-20261012-002",
+        "R-20261012-003",
+        "R-20261012-004",
+        "R-20261012-005",
+        "R-20261012-006",
+        "R-20261012-007",
+        "R-20261012-008",
+        "R-20261012-009",
+        "R-20261012-010",
+        "R-20261012-011",
+        "R-20261012-012",
+        "R-20261012-013",
+        "R-20261012-014",
+        "R-20261012-015",
+        "R-20261012-016",
+        "R-20261012-017",
+        "R-20261012-018",
+        "R-20261012-019"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-12T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 38,
+      "brief_notifications": 4,
+      "total": 42
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:06+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-13 ===
+{
+  "status": "success",
+  "batch_id": "B-20261013-211506-0F7F",
+  "as_of": "2026-10-13",
+  "started_at": "2026-10-24T21:15:06+08:00",
+  "finished_at": "2026-10-24T21:15:06+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 9,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-13",
+    "batch_id": "B-20261013-211506-0F7F",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:06+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 2,
+      "merged": 18,
+      "skipped": 0,
+      "triggered": 20,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 6,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 2,
+          "merged": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 11,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261013-001",
+        "R-20261013-002"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-13T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 2,
+      "brief_notifications": 4,
+      "total": 6
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:06+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-14 ===
+{
+  "status": "success",
+  "batch_id": "B-20261014-211506-B1DB",
+  "as_of": "2026-10-14",
+  "started_at": "2026-10-24T21:15:06+08:00",
+  "finished_at": "2026-10-24T21:15:06+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 12,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-14",
+    "batch_id": "B-20261014-211506-B1DB",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:06+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 0,
+      "merged": 18,
+      "skipped": 0,
+      "triggered": 18,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 5,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 11,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": []
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-14T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 0,
+      "brief_notifications": 4,
+      "total": 4
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:06+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-15 ===
+{
+  "status": "success",
+  "batch_id": "B-20261015-211506-E31B",
+  "as_of": "2026-10-15",
+  "started_at": "2026-10-24T21:15:06+08:00",
+  "finished_at": "2026-10-24T21:15:06+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 21,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 6,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-15",
+    "batch_id": "B-20261015-211506-E31B",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:06+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 1,
+      "merged": 17,
+      "skipped": 0,
+      "triggered": 18,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 4,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 1,
+          "merged": 1,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 11,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261015-001"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-15T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 1,
+      "brief_notifications": 4,
+      "total": 5
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:06+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-16 ===
+{
+  "status": "success",
+  "batch_id": "B-20261016-211506-9DBB",
+  "as_of": "2026-10-16",
+  "started_at": "2026-10-24T21:15:06+08:00",
+  "finished_at": "2026-10-24T21:15:06+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 5,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-16",
+    "batch_id": "B-20261016-211506-9DBB",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:06+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 1,
+      "merged": 18,
+      "skipped": 0,
+      "triggered": 19,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 4,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 1,
+          "merged": 2,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 11,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261016-001"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-16T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 1,
+      "brief_notifications": 4,
+      "total": 5
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:06+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-19 ===
+{
+  "status": "success",
+  "batch_id": "B-20261019-211507-21D2",
+  "as_of": "2026-10-19",
+  "started_at": "2026-10-24T21:15:07+08:00",
+  "finished_at": "2026-10-24T21:15:07+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 9,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-19",
+    "batch_id": "B-20261019-211507-21D2",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:07+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 0,
+      "merged": 18,
+      "skipped": 0,
+      "triggered": 18,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 7,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 8,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": []
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-19T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 0,
+      "brief_notifications": 4,
+      "total": 4
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:07+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-20 ===
+{
+  "status": "success",
+  "batch_id": "B-20261020-211507-8E64",
+  "as_of": "2026-10-20",
+  "started_at": "2026-10-24T21:15:07+08:00",
+  "finished_at": "2026-10-24T21:15:07+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 20,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-20",
+    "batch_id": "B-20261020-211507-8E64",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:07+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 1,
+      "merged": 15,
+      "skipped": 0,
+      "triggered": 16,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 5,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 7,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 1,
+          "merged": 0,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261020-001"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-20T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 4,
+      "brief_notifications": 4,
+      "total": 8
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:07+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-21 ===
+{
+  "status": "success",
+  "batch_id": "B-20261021-211507-C27A",
+  "as_of": "2026-10-21",
+  "started_at": "2026-10-24T21:15:07+08:00",
+  "finished_at": "2026-10-24T21:15:07+08:00",
+  "duration_seconds": 0.06,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-21",
+    "batch_id": "B-20261021-211507-C27A",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:07+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 0,
+      "merged": 16,
+      "skipped": 0,
+      "triggered": 16,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 5,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 7,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": []
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-21T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 0,
+      "brief_notifications": 4,
+      "total": 4
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.06,
+    "finished_at": "2026-10-24T21:15:07+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-22 ===
+{
+  "status": "success",
+  "batch_id": "B-20261022-211507-275A",
+  "as_of": "2026-10-22",
+  "started_at": "2026-10-24T21:15:07+08:00",
+  "finished_at": "2026-10-24T21:15:07+08:00",
+  "duration_seconds": 0.07,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 12,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 13,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-22",
+    "batch_id": "B-20261022-211507-275A",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:07+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 1,
+      "merged": 12,
+      "skipped": 0,
+      "triggered": 13,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 4,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 0,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 4,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 1,
+          "merged": 1,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261022-001"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-22T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 3,
+      "brief_notifications": 4,
+      "total": 7
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.07,
+    "finished_at": "2026-10-24T21:15:07+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}
+=== 2026-10-23 ===
+{
+  "status": "success",
+  "batch_id": "B-20261023-211507-A36D",
+  "as_of": "2026-10-23",
+  "started_at": "2026-10-24T21:15:07+08:00",
+  "finished_at": "2026-10-24T21:15:07+08:00",
+  "duration_seconds": 0.07,
+  "steps": [
+    {
+      "step": "extract",
+      "label": "抽取与校验",
+      "status": "success",
+      "duration_ms": 21,
+      "error": null
+    },
+    {
+      "step": "metrics",
+      "label": "指标快照",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "quality",
+      "label": "数据质量",
+      "status": "success",
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "step": "risks",
+      "label": "风险识别",
+      "status": "success",
+      "duration_ms": 5,
+      "error": null
+    },
+    {
+      "step": "daily",
+      "label": "生成日报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "weekly",
+      "label": "生成周报",
+      "status": "success",
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "step": "publish",
+      "label": "发布",
+      "status": "success",
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "step": "notify",
+      "label": "站内通知",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "step": "escalation",
+      "label": "超时升级检查",
+      "status": "success",
+      "duration_ms": 0,
+      "error": null
+    }
+  ],
+  "stats": {
+    "as_of": "2026-10-23",
+    "batch_id": "B-20261023-211507-A36D",
+    "ingest": {
+      "row_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36,
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      },
+      "ingested_at": "2026-10-24T21:15:07+08:00",
+      "master_counts": {
+        "orgs": 11,
+        "users": 30,
+        "targets": 36
+      },
+      "transaction_counts": {
+        "leads": 1000,
+        "opportunities": 190,
+        "contracts": 176,
+        "orders": 60,
+        "receivables": 80,
+        "ad_spend": 150,
+        "followups": 350
+      }
+    },
+    "metrics": {
+      "snapshots": 187
+    },
+    "quality": {
+      "status": "pass",
+      "score": 100.0,
+      "warnings": 0,
+      "affected_metrics": 0
+    },
+    "risks": {
+      "created": 1,
+      "merged": 10,
+      "skipped": 0,
+      "triggered": 11,
+      "by_rule": {
+        "target_gap": {
+          "created": 0,
+          "merged": 3,
+          "skipped": 0
+        },
+        "decline": {
+          "created": 1,
+          "merged": 0,
+          "skipped": 0
+        },
+        "leads": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        },
+        "coverage": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        },
+        "churn": {
+          "created": 0,
+          "merged": 1,
+          "skipped": 0
+        },
+        "payment": {
+          "created": 0,
+          "merged": 2,
+          "skipped": 0
+        }
+      },
+      "risk_ids": [
+        "R-20261023-001"
+      ]
+    },
+    "daily": {
+      "briefs": 4
+    },
+    "weekly": {
+      "reports": 8
+    },
+    "publish": {
+      "published_at": "2026-10-23T08:30:00+08:00",
+      "daily_briefs": 4,
+      "weekly_reports": 8
+    },
+    "notifications": {
+      "risk_notifications": 3,
+      "brief_notifications": 4,
+      "total": 7
+    },
+    "escalation": {
+      "escalated": 0
+    },
+    "duration_seconds": 0.07,
+    "finished_at": "2026-10-24T21:15:07+08:00"
+  },
+  "database": "C:/Users/Administrator/AppData/Local/Temp/mvp_accept/ten_day.db",
+  "error": null
+}

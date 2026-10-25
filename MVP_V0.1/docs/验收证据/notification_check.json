@@ -1,0 +1,163 @@
+{
+  "total": 10,
+  "pass": 10,
+  "all_pass": true,
+  "dedupe_total": 27,
+  "dedupe_unique": 27,
+  "rows": [
+    {
+      "risk": "R-20261024-001",
+      "level": "yellow",
+      "amount_wan": 150.0,
+      "expected": [
+        "u_ea3"
+      ],
+      "actual": [
+        "u_ea3"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-002",
+      "level": "red",
+      "amount_wan": 200.0,
+      "expected": [
+        "u_bu",
+        "u_ea4",
+        "u_gm",
+        "u_sd"
+      ],
+      "actual": [
+        "u_bu",
+        "u_ea4",
+        "u_gm",
+        "u_sd"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-003",
+      "level": "red",
+      "amount_wan": 500.0,
+      "expected": [
+        "u_gm",
+        "u_sd",
+        "u_west"
+      ],
+      "actual": [
+        "u_gm",
+        "u_sd",
+        "u_west"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-004",
+      "level": "red",
+      "amount_wan": 30.0,
+      "expected": [
+        "u_bu",
+        "u_ea3",
+        "u_sd"
+      ],
+      "actual": [
+        "u_bu",
+        "u_ea3",
+        "u_sd"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-005",
+      "level": "orange",
+      "amount_wan": 0.0,
+      "expected": [
+        "u_bu",
+        "u_ea4"
+      ],
+      "actual": [
+        "u_bu",
+        "u_ea4"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-006",
+      "level": "yellow",
+      "amount_wan": 0.0,
+      "expected": [
+        "u_north"
+      ],
+      "actual": [
+        "u_north"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-007",
+      "level": "orange",
+      "amount_wan": 0.0,
+      "expected": [
+        "u_bu",
+        "u_ea2"
+      ],
+      "actual": [
+        "u_bu",
+        "u_ea2"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-008",
+      "level": "red",
+      "amount_wan": 320.0,
+      "expected": [
+        "u_bu",
+        "u_gm",
+        "u_sd",
+        "u_sm"
+      ],
+      "actual": [
+        "u_bu",
+        "u_gm",
+        "u_sd",
+        "u_sm"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-009",
+      "level": "red",
+      "amount_wan": 80.0,
+      "expected": [
+        "u_sd",
+        "u_south",
+        "u_south1"
+      ],
+      "actual": [
+        "u_sd",
+        "u_south",
+        "u_south1"
+      ],
+      "pass": true
+    },
+    {
+      "risk": "R-20261024-010",
+      "level": "red",
+      "amount_wan": 120.0,
+      "expected": [
+        "u_gm",
+        "u_sd",
+        "u_south",
+        "u_south2"
+      ],
+      "actual": [
+        "u_gm",
+        "u_sd",
+        "u_south",
+        "u_south2"
+      ],
+      "pass": true
+    }
+  ]
+}

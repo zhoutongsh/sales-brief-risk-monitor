@@ -1,0 +1,12 @@
+﻿org_id,name,parent_id,type,sort_order,manager_user_id
+C001,全公司,,company,0,u_gm
+E100,华东事业部,C001,region,10,u_bu
+E110,华东一部,E100,department,11,u_sm
+E120,华东二部,E100,department,12,u_ea2
+E130,华东三部,E100,department,13,u_ea3
+E140,华东四部,E100,department,14,u_ea4
+S200,华南大区,C001,region,20,u_south
+S210,华南一部,S200,department,21,u_south1
+S220,华南二部,S200,department,22,u_south2
+N300,华北大区,C001,region,30,u_north
+W400,西部大区,C001,region,40,u_west

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#15243D">
+<title>经营简报｜营销日周动态汇总与风险预警</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="i-brief" viewBox="0 0 24 24"><path d="M6 3.5h8.5L19 8v12.5H6z"/><path d="M14 3.5V8h5"/><path d="M9 12h7M9 15.5h7M9 8.5h2"/></symbol>
+    <symbol id="i-risk" viewBox="0 0 24 24"><path d="M12 3.8 21 20H3z"/><path d="M12 9.5v4.8M12 17.2v.2"/></symbol>
+    <symbol id="i-weekly" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-rules" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.2"/><circle cx="9" cy="17" r="2.2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.2"/><path d="M10.5 5.5h3M10.5 18.5h3"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v2.4M12 18.8v2.4M4.6 7.2l2 1.2M17.4 15.6l2 1.2M4.6 16.8l2-1.2M17.4 8.4l2-1.2"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m7 9.5 5 5 5-5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5 18.5 12 13 17.5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.2"/><path d="M12 7v5.3l3.4 2"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M3.5 5.5h17l-6.5 7.4v6.1l-4 1.6v-7.7z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5v11M7.5 10.5 12 15l4.5-4.5M4.5 19.5h15"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8v.2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20c.6-3.6 3.4-5.6 7.2-5.6s6.6 2 7.2 5.6"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r=".8"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="M3 17l5.5-5.5 3.8 3.8L21 6.5"/><path d="M15.5 6.5H21v5.5"/></symbol>
+    <symbol id="i-leads" viewBox="0 0 24 24"><path d="M4 6h16M4 12h11M4 18h7"/><circle cx="18" cy="15" r="3"/><path d="M18 13.6v1.6l1.1.7"/></symbol>
+    <symbol id="i-cover" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 9h17M8 4v5M8 13h4M8 16.5h7"/></symbol>
+    <symbol id="i-money" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6.5 9v6M17.5 9v6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></symbol>
+    <symbol id="i-table" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="1.5"/><path d="M3.5 9.5h17M9.5 9.5v10M15 9.5v10"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.2"/><path d="m15.2 15.2 4.3 4.3"/></symbol>
+    <symbol id="i-update" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4v4.8h-4.8"/></symbol>
+  </defs>
+</svg>
+
+<div class="app" id="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M6 23V13M12.5 23V9M19 23v-7M25.5 23V5"/><path d="M4 26h24"/></svg>
+      </div>
+      <div class="brand-text"><strong>经营简报</strong><span>日周动态 · 风险预警</span></div>
+    </div>
+
+    <div class="nav-label">工作台</div>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <button class="nav-item active" data-page="brief">
+        <svg class="ic"><use href="#i-brief"></use></svg><span>今日简报</span>
+      </button>
+      <button class="nav-item" data-page="risks">
+        <svg class="ic"><use href="#i-risk"></use></svg><span>风险中心</span><em class="nav-badge" id="navRiskBadge">12</em>
+      </button>
+      <button class="nav-item" data-page="weekly">
+        <svg class="ic"><use href="#i-weekly"></use></svg><span>周报复盘</span>
+      </button>
+      <button class="nav-item" data-page="rules">
+        <svg class="ic"><use href="#i-rules"></use></svg><span>预警规则</span>
+      </button>
+    </nav>
+
+    <div class="side-spacer"></div>
+
+    <div class="batch-card">
+      <div class="batch-top"><i class="live"></i><span>今日批次已完成</span></div>
+      <div class="batch-time">10-24 · 08:00</div>
+      <div class="batch-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <button class="batch-link" data-act="quality">查看数据质量 <svg class="ic"><use href="#i-arrow"></use></svg></button>
+    </div>
+
+    <button class="tour-btn" data-act="tour">
+      <span class="tour-ico"><svg class="ic"><use href="#i-info"></use></svg></span>
+      <span><b>演示导览</b><small>5 分钟看完整链路</small></span>
+    </button>
+    <div class="version">V0.1 · 演示环境</div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div class="crumb"><span>营销经营简报</span><i>/</i><b id="crumbPage">今日简报</b></div>
+      <div class="top-right">
+        <div class="data-pill" title="今日 T+1 批次已完成，数据可用"><i class="live"></i>10-24 批次 · 08:00</div>
+        <button class="icon-btn only-wide" data-act="phone" title="手机端预览" aria-label="手机端预览">
+          <svg class="ic"><use href="#i-phone"></use></svg>
+        </button>
+        <div class="pop-wrap">
+          <button class="icon-btn bell" data-act="notify" title="消息" aria-label="消息">
+            <svg class="ic"><use href="#i-bell"></use></svg><i class="dot"></i>
+          </button>
+          <div class="notify-pop" id="notifyPop">
+            <div class="pop-head"><b>消息</b><span>3 条未读</span></div>
+            <button class="notify-item" data-act="notify-risk">
+              <span class="ni-ico red"><svg class="ic"><use href="#i-risk"></use></svg></span>
+              <span><b>1 条红色风险即将到期</b><small>恒远科技 · 剩 2h18m · 08:42</small></span>
+            </button>
+            <button class="notify-item" data-act="notify-week">
+              <span class="ni-ico blue"><svg class="ic"><use href="#i-weekly"></use></svg></span>
+              <span><b>本周经营周报已生成</b><small>已在「周报复盘」更新 · 08:05</small></span>
+            </button>
+            <button class="notify-item" data-act="notify-data">
+              <span class="ni-ico green"><svg class="ic"><use href="#i-check"></use></svg></span>
+              <span><b>数据质量校验通过</b><small>12 项指标全部可用 · 07:15</small></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="role-wrap">
+          <button class="role-btn" data-act="role-menu" aria-haspopup="true" aria-expanded="false">
+            <span class="role-avatar" id="roleAvatar">张</span>
+            <span class="role-meta"><b id="roleName">张建国</b><small id="roleTitle">公司总经理 · 全公司</small></span>
+            <svg class="ic chev"><use href="#i-chev"></use></svg>
+          </button>
+          <div class="role-menu" id="roleMenu">
+            <div class="role-menu-head">切换角色<span>权限与数据范围同步变化</span></div>
+            <button class="role-option active" data-role="gm">
+              <span class="ro-avatar">张</span><span><b>张建国</b><small>公司总经理 · 全公司</small></span><i class="ro-check"><svg class="ic"><use href="#i-check"></use></svg></i>
+            </button>
+            <button class="role-option" data-role="sd">
+              <span class="ro-avatar">李</span><span><b>李敏</b><small>销售总监 · 全公司销售</small></span><i class="ro-check"><svg class="ic"><use href="#i-check"></use></svg></i>
+            </button>
+            <button class="role-option" data-role="bu">
+              <span class="ro-avatar">王</span><span><b>王强</b><small>事业部总经理 · 华东事业部</small></span><i class="ro-check"><svg class="ic"><use href="#i-check"></use></svg></i>
+            </button>
+            <button class="role-option" data-role="sm">
+              <span class="ro-avatar">李</span><span><b>李娜</b><small>销售经理 · 华东一部</small></span><i class="ro-check"><svg class="ic"><use href="#i-check"></use></svg></i>
+            </button>
+          </div>
+        </div>
+
+        <button class="icon-btn" data-act="settings" title="设置" aria-label="设置">
+          <svg class="ic"><use href="#i-gear"></use></svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="content" id="content" tabindex="-1"></main>
+  </div>
+</div>
+
+<div class="drawer-mask" id="drawerMask"></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="风险详情"></aside>
+
+<div class="modal-root" id="modalRoot"></div>
+
+<div class="overlay phone-overlay" id="phoneOverlay" aria-hidden="true">
+  <div class="phone-stage">
+    <div class="phone-copy">
+      <span class="eyebrow">移动端演示 · 钉钉 / 企微 H5</span>
+      <h2>同一份数据，<br>手机上只看三件事</h2>
+      <p>手机不是缩小版的电脑。它只承担「收到 → 看懂 → 接单」这一段，详细分析回到电脑端。</p>
+      <ul>
+        <li><b>看结论</b>：3 条判断放在首屏，不先给图表</li>
+        <li><b>看风险</b>：按级别和 SLA 排序，红色置顶</li>
+        <li><b>接单</b>：认领、转派、关闭都在拇指可达区</li>
+      </ul>
+      <button class="btn ghost-light" data-act="close-phone">返回电脑端</button>
+    </div>
+    <div class="phone">
+      <div class="phone-notch"></div>
+      <div class="phone-screen" id="phoneScreen"></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

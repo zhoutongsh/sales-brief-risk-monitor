@@ -1,0 +1,4878 @@
+{
+  "summary": {
+    "dates": [
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "roles": {
+      "u_gm": "C001",
+      "u_sd": "C001",
+      "u_bu": "E100",
+      "u_sm": "E110"
+    },
+    "comparisons": 480,
+    "passed": 480,
+    "failed": 0,
+    "consistency_pct": 100.0,
+    "by_metric": {
+      "new_leads": {
+        "n": 40,
+        "pass": 40
+      },
+      "valid_leads": {
+        "n": 40,
+        "pass": 40
+      },
+      "lead_valid_rate": {
+        "n": 40,
+        "pass": 40
+      },
+      "lead_conversion_rate": {
+        "n": 40,
+        "pass": 40
+      },
+      "new_opportunities": {
+        "n": 40,
+        "pass": 40
+      },
+      "pipeline_amount": {
+        "n": 40,
+        "pass": 40
+      },
+      "opportunity_coverage": {
+        "n": 40,
+        "pass": 40
+      },
+      "contract_amount": {
+        "n": 40,
+        "pass": 40
+      },
+      "contract_count": {
+        "n": 40,
+        "pass": 40
+      },
+      "target_completion_rate": {
+        "n": 40,
+        "pass": 40
+      },
+      "collection_completion_rate": {
+        "n": 40,
+        "pass": 40
+      },
+      "marketing_roi": {
+        "n": 40,
+        "pass": 40
+      }
+    }
+  },
+  "rows": [
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "new_leads",
+      "expected": 45,
+      "api": 45,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "valid_leads",
+      "expected": 45,
+      "api": 45,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "lead_conversion_rate",
+      "expected": 60.0,
+      "api": 60.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "new_opportunities",
+      "expected": 2,
+      "api": 2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "pipeline_amount",
+      "expected": 3595.9,
+      "api": 3595.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "opportunity_coverage",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "contract_amount",
+      "expected": 231.9,
+      "api": 231.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "target_completion_rate",
+      "expected": 32.8,
+      "api": 32.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "collection_completion_rate",
+      "expected": 25.3,
+      "api": 25.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "marketing_roi",
+      "expected": 5.9,
+      "api": 5.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "new_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "valid_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "new_opportunities",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "pipeline_amount",
+      "expected": 3869.9,
+      "api": 3869.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "opportunity_coverage",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "contract_amount",
+      "expected": 250.2,
+      "api": 250.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "target_completion_rate",
+      "expected": 36.9,
+      "api": 36.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "collection_completion_rate",
+      "expected": 25.3,
+      "api": 25.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "marketing_roi",
+      "expected": 5.9,
+      "api": 5.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "new_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "valid_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "new_opportunities",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "pipeline_amount",
+      "expected": 4189.5,
+      "api": 4189.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "opportunity_coverage",
+      "expected": 1.2,
+      "api": 1.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "contract_amount",
+      "expected": 268.6,
+      "api": 268.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "target_completion_rate",
+      "expected": 41.4,
+      "api": 41.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "collection_completion_rate",
+      "expected": 39.5,
+      "api": 39.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "marketing_roi",
+      "expected": 6.2,
+      "api": 6.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "new_leads",
+      "expected": 40,
+      "api": 40,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "valid_leads",
+      "expected": 14,
+      "api": 14,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "lead_valid_rate",
+      "expected": 35.0,
+      "api": 35.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "new_opportunities",
+      "expected": 2,
+      "api": 2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "pipeline_amount",
+      "expected": 4195.6,
+      "api": 4195.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "opportunity_coverage",
+      "expected": 1.3,
+      "api": 1.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "contract_amount",
+      "expected": 286.9,
+      "api": 286.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "target_completion_rate",
+      "expected": 46.2,
+      "api": 46.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "collection_completion_rate",
+      "expected": 39.5,
+      "api": 39.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "marketing_roi",
+      "expected": 6.5,
+      "api": 6.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "new_leads",
+      "expected": 39,
+      "api": 39,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "new_opportunities",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "pipeline_amount",
+      "expected": 4489.2,
+      "api": 4489.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "opportunity_coverage",
+      "expected": 1.5,
+      "api": 1.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "contract_amount",
+      "expected": 305.2,
+      "api": 305.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "target_completion_rate",
+      "expected": 51.3,
+      "api": 51.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "collection_completion_rate",
+      "expected": 39.5,
+      "api": 39.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "marketing_roi",
+      "expected": 6.4,
+      "api": 6.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "new_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "valid_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "lead_conversion_rate",
+      "expected": 56.8,
+      "api": 56.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "new_opportunities",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "pipeline_amount",
+      "expected": 4900.2,
+      "api": 4900.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "opportunity_coverage",
+      "expected": 1.8,
+      "api": 1.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "contract_amount",
+      "expected": 219.7,
+      "api": 219.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "target_completion_rate",
+      "expected": 54.9,
+      "api": 54.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "marketing_roi",
+      "expected": 6.1,
+      "api": 6.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "new_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "valid_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "new_opportunities",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "pipeline_amount",
+      "expected": 5148.1,
+      "api": 5148.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "opportunity_coverage",
+      "expected": 2.1,
+      "api": 2.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "contract_amount",
+      "expected": 238.0,
+      "api": 238.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "target_completion_rate",
+      "expected": 58.9,
+      "api": 58.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "marketing_roi",
+      "expected": 6.0,
+      "api": 6.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "new_leads",
+      "expected": 41,
+      "api": 41,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "valid_leads",
+      "expected": 41,
+      "api": 41,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "pipeline_amount",
+      "expected": 5155.2,
+      "api": 5155.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "opportunity_coverage",
+      "expected": 2.4,
+      "api": 2.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "contract_amount",
+      "expected": 299.0,
+      "api": 299.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "target_completion_rate",
+      "expected": 63.9,
+      "api": 63.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "marketing_roi",
+      "expected": 6.3,
+      "api": 6.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "new_leads",
+      "expected": 40,
+      "api": 40,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "valid_leads",
+      "expected": 17,
+      "api": 17,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "lead_valid_rate",
+      "expected": 42.5,
+      "api": 42.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "new_opportunities",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "pipeline_amount",
+      "expected": 5280.0,
+      "api": 5280.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "opportunity_coverage",
+      "expected": 2.8,
+      "api": 2.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "contract_amount",
+      "expected": 279.0,
+      "api": 279.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "target_completion_rate",
+      "expected": 68.5,
+      "api": 68.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "marketing_roi",
+      "expected": 6.5,
+      "api": 6.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "new_leads",
+      "expected": 39,
+      "api": 39,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "new_opportunities",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "pipeline_amount",
+      "expected": 5280.0,
+      "api": 5280.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "opportunity_coverage",
+      "expected": 3.3,
+      "api": 3.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "contract_amount",
+      "expected": 270.0,
+      "api": 270.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "target_completion_rate",
+      "expected": 73.0,
+      "api": 73.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "collection_completion_rate",
+      "expected": 71.0,
+      "api": 71.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_gm",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "marketing_roi",
+      "expected": 6.4,
+      "api": 6.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "new_leads",
+      "expected": 45,
+      "api": 45,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "valid_leads",
+      "expected": 45,
+      "api": 45,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "lead_conversion_rate",
+      "expected": 60.0,
+      "api": 60.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "new_opportunities",
+      "expected": 2,
+      "api": 2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "pipeline_amount",
+      "expected": 3595.9,
+      "api": 3595.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "opportunity_coverage",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "contract_amount",
+      "expected": 231.9,
+      "api": 231.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "target_completion_rate",
+      "expected": 32.8,
+      "api": 32.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "collection_completion_rate",
+      "expected": 25.3,
+      "api": 25.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-12",
+      "metric": "marketing_roi",
+      "expected": 5.9,
+      "api": 5.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "new_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "valid_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "new_opportunities",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "pipeline_amount",
+      "expected": 3869.9,
+      "api": 3869.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "opportunity_coverage",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "contract_amount",
+      "expected": 250.2,
+      "api": 250.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "target_completion_rate",
+      "expected": 36.9,
+      "api": 36.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "collection_completion_rate",
+      "expected": 25.3,
+      "api": 25.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-13",
+      "metric": "marketing_roi",
+      "expected": 5.9,
+      "api": 5.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "new_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "valid_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "new_opportunities",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "pipeline_amount",
+      "expected": 4189.5,
+      "api": 4189.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "opportunity_coverage",
+      "expected": 1.2,
+      "api": 1.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "contract_amount",
+      "expected": 268.6,
+      "api": 268.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "target_completion_rate",
+      "expected": 41.4,
+      "api": 41.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "collection_completion_rate",
+      "expected": 39.5,
+      "api": 39.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-14",
+      "metric": "marketing_roi",
+      "expected": 6.2,
+      "api": 6.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "new_leads",
+      "expected": 40,
+      "api": 40,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "valid_leads",
+      "expected": 14,
+      "api": 14,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "lead_valid_rate",
+      "expected": 35.0,
+      "api": 35.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "new_opportunities",
+      "expected": 2,
+      "api": 2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "pipeline_amount",
+      "expected": 4195.6,
+      "api": 4195.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "opportunity_coverage",
+      "expected": 1.3,
+      "api": 1.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "contract_amount",
+      "expected": 286.9,
+      "api": 286.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "target_completion_rate",
+      "expected": 46.2,
+      "api": 46.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "collection_completion_rate",
+      "expected": 39.5,
+      "api": 39.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-15",
+      "metric": "marketing_roi",
+      "expected": 6.5,
+      "api": 6.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "new_leads",
+      "expected": 39,
+      "api": 39,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "new_opportunities",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "pipeline_amount",
+      "expected": 4489.2,
+      "api": 4489.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "opportunity_coverage",
+      "expected": 1.5,
+      "api": 1.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "contract_amount",
+      "expected": 305.2,
+      "api": 305.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "target_completion_rate",
+      "expected": 51.3,
+      "api": 51.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "collection_completion_rate",
+      "expected": 39.5,
+      "api": 39.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-16",
+      "metric": "marketing_roi",
+      "expected": 6.4,
+      "api": 6.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "new_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "valid_leads",
+      "expected": 44,
+      "api": 44,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "lead_conversion_rate",
+      "expected": 56.8,
+      "api": 56.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "new_opportunities",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "pipeline_amount",
+      "expected": 4900.2,
+      "api": 4900.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "opportunity_coverage",
+      "expected": 1.8,
+      "api": 1.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "contract_amount",
+      "expected": 219.7,
+      "api": 219.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "target_completion_rate",
+      "expected": 54.9,
+      "api": 54.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-19",
+      "metric": "marketing_roi",
+      "expected": 6.1,
+      "api": 6.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "new_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "valid_leads",
+      "expected": 42,
+      "api": 42,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "new_opportunities",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "pipeline_amount",
+      "expected": 5148.1,
+      "api": 5148.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "opportunity_coverage",
+      "expected": 2.1,
+      "api": 2.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "contract_amount",
+      "expected": 238.0,
+      "api": 238.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "target_completion_rate",
+      "expected": 58.9,
+      "api": 58.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-20",
+      "metric": "marketing_roi",
+      "expected": 6.0,
+      "api": 6.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "new_leads",
+      "expected": 41,
+      "api": 41,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "valid_leads",
+      "expected": 41,
+      "api": 41,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "pipeline_amount",
+      "expected": 5155.2,
+      "api": 5155.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "opportunity_coverage",
+      "expected": 2.4,
+      "api": 2.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "contract_amount",
+      "expected": 299.0,
+      "api": 299.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "target_completion_rate",
+      "expected": 63.9,
+      "api": 63.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-21",
+      "metric": "marketing_roi",
+      "expected": 6.3,
+      "api": 6.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "new_leads",
+      "expected": 40,
+      "api": 40,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "valid_leads",
+      "expected": 17,
+      "api": 17,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "lead_valid_rate",
+      "expected": 42.5,
+      "api": 42.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "new_opportunities",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "pipeline_amount",
+      "expected": 5280.0,
+      "api": 5280.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "opportunity_coverage",
+      "expected": 2.8,
+      "api": 2.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "contract_amount",
+      "expected": 279.0,
+      "api": 279.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "target_completion_rate",
+      "expected": 68.5,
+      "api": 68.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "collection_completion_rate",
+      "expected": 54.8,
+      "api": 54.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-22",
+      "metric": "marketing_roi",
+      "expected": 6.5,
+      "api": 6.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "new_leads",
+      "expected": 39,
+      "api": 39,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "new_opportunities",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "pipeline_amount",
+      "expected": 5280.0,
+      "api": 5280.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "opportunity_coverage",
+      "expected": 3.3,
+      "api": 3.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "contract_amount",
+      "expected": 270.0,
+      "api": 270.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "contract_count",
+      "expected": 8,
+      "api": 8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "target_completion_rate",
+      "expected": 73.0,
+      "api": 73.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "collection_completion_rate",
+      "expected": 71.0,
+      "api": 71.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sd",
+      "root": "C001",
+      "date": "2026-10-23",
+      "metric": "marketing_roi",
+      "expected": 6.4,
+      "api": 6.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "new_leads",
+      "expected": 23,
+      "api": 23,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "valid_leads",
+      "expected": 23,
+      "api": 23,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "lead_conversion_rate",
+      "expected": 60.9,
+      "api": 60.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "pipeline_amount",
+      "expected": 1244.1,
+      "api": 1244.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "opportunity_coverage",
+      "expected": 0.7,
+      "api": 0.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "contract_amount",
+      "expected": 91.4,
+      "api": 91.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "target_completion_rate",
+      "expected": 31.0,
+      "api": 31.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "collection_completion_rate",
+      "expected": 24.6,
+      "api": 24.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-12",
+      "metric": "marketing_roi",
+      "expected": 2.3,
+      "api": 2.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "new_leads",
+      "expected": 22,
+      "api": 22,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "valid_leads",
+      "expected": 22,
+      "api": 22,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "new_opportunities",
+      "expected": 5,
+      "api": 5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "pipeline_amount",
+      "expected": 1311.4,
+      "api": 1311.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "opportunity_coverage",
+      "expected": 0.8,
+      "api": 0.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "contract_amount",
+      "expected": 98.6,
+      "api": 98.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "target_completion_rate",
+      "expected": 34.9,
+      "api": 34.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "collection_completion_rate",
+      "expected": 24.6,
+      "api": 24.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-13",
+      "metric": "marketing_roi",
+      "expected": 2.4,
+      "api": 2.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "new_leads",
+      "expected": 21,
+      "api": 21,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "valid_leads",
+      "expected": 21,
+      "api": 21,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "new_opportunities",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "pipeline_amount",
+      "expected": 1389.9,
+      "api": 1389.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "opportunity_coverage",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "contract_amount",
+      "expected": 105.9,
+      "api": 105.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "target_completion_rate",
+      "expected": 39.2,
+      "api": 39.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "collection_completion_rate",
+      "expected": 38.4,
+      "api": 38.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-14",
+      "metric": "marketing_roi",
+      "expected": 2.4,
+      "api": 2.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "new_leads",
+      "expected": 20,
+      "api": 20,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "valid_leads",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "lead_valid_rate",
+      "expected": 45.0,
+      "api": 45.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "new_opportunities",
+      "expected": 2,
+      "api": 2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "pipeline_amount",
+      "expected": 1396.0,
+      "api": 1396.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "opportunity_coverage",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "contract_amount",
+      "expected": 113.1,
+      "api": 113.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "target_completion_rate",
+      "expected": 43.7,
+      "api": 43.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "collection_completion_rate",
+      "expected": 38.4,
+      "api": 38.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-15",
+      "metric": "marketing_roi",
+      "expected": 2.5,
+      "api": 2.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "new_leads",
+      "expected": 20,
+      "api": 20,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "new_opportunities",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "pipeline_amount",
+      "expected": 1468.1,
+      "api": 1468.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "opportunity_coverage",
+      "expected": 1.1,
+      "api": 1.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "contract_amount",
+      "expected": 120.3,
+      "api": 120.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "target_completion_rate",
+      "expected": 48.5,
+      "api": 48.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "collection_completion_rate",
+      "expected": 38.4,
+      "api": 38.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-16",
+      "metric": "marketing_roi",
+      "expected": 2.5,
+      "api": 2.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "new_leads",
+      "expected": 21,
+      "api": 21,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "valid_leads",
+      "expected": 21,
+      "api": 21,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "lead_conversion_rate",
+      "expected": 57.1,
+      "api": 57.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "new_opportunities",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "pipeline_amount",
+      "expected": 1607.6,
+      "api": 1607.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "opportunity_coverage",
+      "expected": 1.3,
+      "api": 1.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "contract_amount",
+      "expected": 86.6,
+      "api": 86.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "target_completion_rate",
+      "expected": 52.0,
+      "api": 52.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "collection_completion_rate",
+      "expected": 53.2,
+      "api": 53.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-19",
+      "metric": "marketing_roi",
+      "expected": 2.4,
+      "api": 2.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "new_leads",
+      "expected": 20,
+      "api": 20,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "valid_leads",
+      "expected": 20,
+      "api": 20,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "new_opportunities",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "pipeline_amount",
+      "expected": 1668.5,
+      "api": 1668.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "opportunity_coverage",
+      "expected": 1.5,
+      "api": 1.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "contract_amount",
+      "expected": 93.8,
+      "api": 93.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "target_completion_rate",
+      "expected": 55.7,
+      "api": 55.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "collection_completion_rate",
+      "expected": 53.2,
+      "api": 53.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-20",
+      "metric": "marketing_roi",
+      "expected": 2.4,
+      "api": 2.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "new_leads",
+      "expected": 19,
+      "api": 19,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "valid_leads",
+      "expected": 19,
+      "api": 19,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "pipeline_amount",
+      "expected": 1675.5,
+      "api": 1675.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "opportunity_coverage",
+      "expected": 1.8,
+      "api": 1.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "contract_amount",
+      "expected": 164.0,
+      "api": 164.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "target_completion_rate",
+      "expected": 62.3,
+      "api": 62.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "collection_completion_rate",
+      "expected": 53.2,
+      "api": 53.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-21",
+      "metric": "marketing_roi",
+      "expected": 2.6,
+      "api": 2.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "new_leads",
+      "expected": 19,
+      "api": 19,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "valid_leads",
+      "expected": 9,
+      "api": 9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "lead_valid_rate",
+      "expected": 47.4,
+      "api": 47.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "new_opportunities",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "pipeline_amount",
+      "expected": 1730.0,
+      "api": 1730.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "opportunity_coverage",
+      "expected": 2.2,
+      "api": 2.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "contract_amount",
+      "expected": 139.0,
+      "api": 139.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "target_completion_rate",
+      "expected": 67.8,
+      "api": 67.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "collection_completion_rate",
+      "expected": 53.2,
+      "api": 53.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-22",
+      "metric": "marketing_roi",
+      "expected": 2.7,
+      "api": 2.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "new_leads",
+      "expected": 18,
+      "api": 18,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "new_opportunities",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "pipeline_amount",
+      "expected": 1730.0,
+      "api": 1730.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "opportunity_coverage",
+      "expected": 2.5,
+      "api": 2.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "contract_amount",
+      "expected": 124.0,
+      "api": 124.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "contract_count",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "target_completion_rate",
+      "expected": 72.8,
+      "api": 72.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "collection_completion_rate",
+      "expected": 69.0,
+      "api": 69.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_bu",
+      "root": "E100",
+      "date": "2026-10-23",
+      "metric": "marketing_roi",
+      "expected": 2.7,
+      "api": 2.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "new_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "valid_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "lead_conversion_rate",
+      "expected": 57.1,
+      "api": 57.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "pipeline_amount",
+      "expected": 433.5,
+      "api": 433.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "opportunity_coverage",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "contract_amount",
+      "expected": 35.4,
+      "api": 35.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "target_completion_rate",
+      "expected": 37.5,
+      "api": 37.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "collection_completion_rate",
+      "expected": 27.6,
+      "api": 27.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-12",
+      "metric": "marketing_roi",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "new_leads",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "valid_leads",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "pipeline_amount",
+      "expected": 440.3,
+      "api": 440.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "opportunity_coverage",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "contract_amount",
+      "expected": 38.2,
+      "api": 38.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "target_completion_rate",
+      "expected": 42.3,
+      "api": 42.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "collection_completion_rate",
+      "expected": 27.6,
+      "api": 27.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-13",
+      "metric": "marketing_roi",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "new_leads",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "valid_leads",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "pipeline_amount",
+      "expected": 448.1,
+      "api": 448.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "opportunity_coverage",
+      "expected": 1.1,
+      "api": 1.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "contract_amount",
+      "expected": 41.0,
+      "api": 41.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "target_completion_rate",
+      "expected": 47.4,
+      "api": 47.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "collection_completion_rate",
+      "expected": 43.0,
+      "api": 43.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-14",
+      "metric": "marketing_roi",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "new_leads",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "valid_leads",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "lead_valid_rate",
+      "expected": 66.7,
+      "api": 66.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "pipeline_amount",
+      "expected": 454.2,
+      "api": 454.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "opportunity_coverage",
+      "expected": 1.2,
+      "api": 1.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "contract_amount",
+      "expected": 43.8,
+      "api": 43.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "target_completion_rate",
+      "expected": 52.9,
+      "api": 52.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "collection_completion_rate",
+      "expected": 43.0,
+      "api": 43.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-15",
+      "metric": "marketing_roi",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "new_leads",
+      "expected": 6,
+      "api": 6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "pipeline_amount",
+      "expected": 461.5,
+      "api": 461.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "opportunity_coverage",
+      "expected": 1.4,
+      "api": 1.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "contract_amount",
+      "expected": 46.6,
+      "api": 46.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "target_completion_rate",
+      "expected": 58.8,
+      "api": 58.8,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "collection_completion_rate",
+      "expected": 43.0,
+      "api": 43.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-16",
+      "metric": "marketing_roi",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "new_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "valid_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "lead_conversion_rate",
+      "expected": 57.1,
+      "api": 57.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "pipeline_amount",
+      "expected": 481.4,
+      "api": 481.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "opportunity_coverage",
+      "expected": 1.6,
+      "api": 1.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "contract_amount",
+      "expected": 33.6,
+      "api": 33.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "target_completion_rate",
+      "expected": 63.0,
+      "api": 63.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "collection_completion_rate",
+      "expected": 59.6,
+      "api": 59.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-19",
+      "metric": "marketing_roi",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "new_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "valid_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "pipeline_amount",
+      "expected": 487.5,
+      "api": 487.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "opportunity_coverage",
+      "expected": 1.9,
+      "api": 1.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "contract_amount",
+      "expected": 36.4,
+      "api": 36.4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "target_completion_rate",
+      "expected": 67.5,
+      "api": 67.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "collection_completion_rate",
+      "expected": 59.6,
+      "api": 59.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-20",
+      "metric": "marketing_roi",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "new_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "valid_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "lead_valid_rate",
+      "expected": 100.0,
+      "api": 100.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "pipeline_amount",
+      "expected": 494.5,
+      "api": 494.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "opportunity_coverage",
+      "expected": 2.2,
+      "api": 2.2,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "contract_amount",
+      "expected": 38.0,
+      "api": 38.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "target_completion_rate",
+      "expected": 72.3,
+      "api": 72.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "collection_completion_rate",
+      "expected": 59.6,
+      "api": 59.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-21",
+      "metric": "marketing_roi",
+      "expected": 0.9,
+      "api": 0.9,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "new_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "valid_leads",
+      "expected": 4,
+      "api": 4,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "lead_valid_rate",
+      "expected": 57.1,
+      "api": 57.1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "lead_conversion_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "new_opportunities",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "pipeline_amount",
+      "expected": 500.0,
+      "api": 500.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "opportunity_coverage",
+      "expected": 2.7,
+      "api": 2.7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "contract_amount",
+      "expected": 40.0,
+      "api": 40.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "target_completion_rate",
+      "expected": 77.3,
+      "api": 77.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "collection_completion_rate",
+      "expected": 59.6,
+      "api": 59.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-22",
+      "metric": "marketing_roi",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "new_leads",
+      "expected": 7,
+      "api": 7,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "valid_leads",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "lead_valid_rate",
+      "expected": 0.0,
+      "api": 0.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "lead_conversion_rate",
+      "expected": null,
+      "api": null,
+      "diff": null,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "new_opportunities",
+      "expected": 0,
+      "api": 0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "pipeline_amount",
+      "expected": 500.0,
+      "api": 500.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "opportunity_coverage",
+      "expected": 3.6,
+      "api": 3.6,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "contract_amount",
+      "expected": 42.0,
+      "api": 42.0,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "contract_count",
+      "expected": 1,
+      "api": 1,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "target_completion_rate",
+      "expected": 82.5,
+      "api": 82.5,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "collection_completion_rate",
+      "expected": 77.3,
+      "api": 77.3,
+      "diff": 0.0,
+      "pass": true
+    },
+    {
+      "user": "u_sm",
+      "root": "E110",
+      "date": "2026-10-23",
+      "metric": "marketing_roi",
+      "expected": 1.0,
+      "api": 1.0,
+      "diff": 0.0,
+      "pass": true
+    }
+  ]
+}

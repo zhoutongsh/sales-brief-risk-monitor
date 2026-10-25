@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "file": "ad_spend.csv",
+      "same": true,
+      "orig_sha": "609e20306bb4",
+      "new_sha": "609e20306bb4"
+    },
+    {
+      "file": "contracts.csv",
+      "same": true,
+      "orig_sha": "926906b0a3c5",
+      "new_sha": "926906b0a3c5"
+    },
+    {
+      "file": "followups.csv",
+      "same": true,
+      "orig_sha": "7b381576af4c",
+      "new_sha": "7b381576af4c"
+    },
+    {
+      "file": "leads.csv",
+      "same": true,
+      "orig_sha": "1b88169a6b80",
+      "new_sha": "1b88169a6b80"
+    },
+    {
+      "file": "opportunities.csv",
+      "same": true,
+      "orig_sha": "b2b533f884c6",
+      "new_sha": "b2b533f884c6"
+    },
+    {
+      "file": "orders.csv",
+      "same": true,
+      "orig_sha": "47df0c4cfa96",
+      "new_sha": "47df0c4cfa96"
+    },
+    {
+      "file": "orgs.csv",
+      "same": true,
+      "orig_sha": "c4f6e5352c1b",
+      "new_sha": "c4f6e5352c1b"
+    },
+    {
+      "file": "receivables.csv",
+      "same": true,
+      "orig_sha": "941f0f978030",
+      "new_sha": "941f0f978030"
+    },
+    {
+      "file": "targets.csv",
+      "same": true,
+      "orig_sha": "a3f4e8bd0d27",
+      "new_sha": "a3f4e8bd0d27"
+    },
+    {
+      "file": "users.csv",
+      "same": true,
+      "orig_sha": "6f81b5f21a03",
+      "new_sha": "6f81b5f21a03"
+    }
+  ],
+  "all_same": true,
+  "expected_same": true
+}

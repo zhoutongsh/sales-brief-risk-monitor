@@ -1,0 +1,23 @@
+[
+  {
+    "role": "u_sd",
+    "action": "batch.run",
+    "status": 403,
+    "expect": 403,
+    "pass": true
+  },
+  {
+    "role": "u_bu",
+    "action": "batch.run",
+    "status": 403,
+    "expect": 403,
+    "pass": true
+  },
+  {
+    "role": "u_sm",
+    "action": "batch.run",
+    "status": 403,
+    "expect": 403,
+    "pass": true
+  }
+]

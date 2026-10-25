@@ -1,26 +1,47 @@
 # -*- mode: python ; coding: utf-8 -*-
+import os
+
 from PyInstaller.utils.hooks import collect_all
 
-datas = []
+ROOT = os.path.abspath(os.getcwd())
+
+# 网页和建表 SQL 必须随 exe 一起打包；app 里的模块有动态导入，逐个列出。
+datas = [
+    ('web', 'web'),
+    ('app/schema.sql', 'app'),
+]
 binaries = []
-hiddenimports = []
-tmp_ret = collect_all('fastapi')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
-tmp_ret = collect_all('starlette')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
-tmp_ret = collect_all('pydantic')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
-tmp_ret = collect_all('uvicorn')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
-tmp_ret = collect_all('openpyxl')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
-tmp_ret = collect_all('itsdangerous')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+hiddenimports = [
+    'app',
+    'app.api',
+    'app.audit',
+    'app.auth',
+    'app.batch',
+    'app.brief',
+    'app.config',
+    'app.db',
+    'app.ingest',
+    'app.main',
+    'app.metrics',
+    'app.notifications',
+    'app.privacy',
+    'app.quality',
+    'app.risk_service',
+    'app.rules',
+    'app.scope',
+    'app.seed',
+]
+
+for package in ('fastapi', 'starlette', 'pydantic', 'uvicorn', 'openpyxl', 'itsdangerous', 'et_xmlfile'):
+    tmp_ret = collect_all(package)
+    datas += tmp_ret[0]
+    binaries += tmp_ret[1]
+    hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
     ['launcher.py'],
-    pathex=[],
+    pathex=[ROOT],
     binaries=binaries,
     datas=datas,
     hiddenimports=hiddenimports,

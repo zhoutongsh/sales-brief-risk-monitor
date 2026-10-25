@@ -11,9 +11,10 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
+# 打包成 exe 后，代码在临时解压目录，数据要放在 exe 旁边，避免每次启动丢数据。
+DATA_DIR = Path(os.environ.get("MVP_DATA_DIR", BASE_DIR / "data"))
 SOURCE_DIR = DATA_DIR / "source"
-WEB_DIR = BASE_DIR / "web"
+WEB_DIR = Path(os.environ.get("MVP_WEB_DIR", BASE_DIR / "web"))
 DB_PATH = Path(os.environ.get("MVP_DB_PATH", DATA_DIR / "mvp.db"))
 EXPECTED_RISKS_PATH = DATA_DIR / "expected_risks.csv"
 

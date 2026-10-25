@@ -25,6 +25,12 @@ BASE = os.path.dirname(os.path.abspath(sys.argv[0]))
 os.chdir(BASE)
 sys.path.insert(0, BASE)
 
+# 单文件 exe 会把代码和网页解压到临时目录；数据库和演示源数据放在 exe 旁边。
+BUNDLE = Path(getattr(sys, "_MEIPASS", BASE))
+os.environ.setdefault("MVP_WEB_DIR", str(BUNDLE / "web"))
+os.environ.setdefault("MVP_DATA_DIR", str(Path(BASE) / "data"))
+os.environ.setdefault("MVP_DB_PATH", str(Path(BASE) / "data" / "mvp.db"))
+
 
 def port_open(host, port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -33,6 +39,9 @@ def port_open(host, port):
 
 
 def open_browser_later(delay=2.5):
+    if os.environ.get("MVP_NO_BROWSER") == "1":
+        return
+
     def _open():
         time.sleep(delay)
         webbrowser.open(URL)
@@ -74,7 +83,8 @@ def main():
 
     if port_open(HOST, PORT):
         print("检测到服务已在运行，直接打开页面…")
-        webbrowser.open(URL)
+        if os.environ.get("MVP_NO_BROWSER") != "1":
+            webbrowser.open(URL)
         time.sleep(3)
         return
 

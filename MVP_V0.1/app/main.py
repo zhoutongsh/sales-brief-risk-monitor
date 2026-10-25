@@ -18,7 +18,7 @@ from .api import router
 from .audit import write_audit
 from .auth import read_session
 from .batch import run_batch
-from .config import DEMO_DATE, WEB_DIR
+from .config import DEMO_DATE, SOURCE_DIR, WEB_DIR
 from .db import connect, init_db
 from .risk_service import RiskServiceError
 from .seed import generate_source_files
@@ -40,7 +40,7 @@ def ensure_demo_ready(db_path: Path) -> None:
         has_orgs = conn.execute("SELECT COUNT(*) FROM orgs").fetchone()[0]
     finally:
         conn.close()
-    if not has_orgs or not (Path(__file__).resolve().parent.parent / "data" / "source" / "orgs.csv").exists():
+    if not has_orgs or not (SOURCE_DIR / "orgs.csv").exists():
         logger.info("生成演示源数据 …")
         generate_source_files()
     if needs_batch:
